@@ -1,4 +1,5 @@
 import Hero from "@/components/Hero";
+import ImageSlider from "@/components/ImageSlider";
 import SectionHeading from "@/components/SectionHeading";
 import ServiceCard from "@/components/ServiceCard";
 import GalleryGrid from "@/components/GalleryGrid";
@@ -13,6 +14,7 @@ import {
   eventsList,
   testimonials,
   images,
+  heroSliderImages,
 } from "@/lib/data";
 
 function ServiceIcon({ type }: { type: string }) {
@@ -50,8 +52,8 @@ function ServiceIcon({ type }: { type: string }) {
 export default function Homepage() {
   return (
     <>
-      {/* Hero */}
-      <Hero />
+      {/* Image Slider */}
+      <ImageSlider images={heroSliderImages} />
 
       {/* Services */}
       <section className="section-padding bg-beige">

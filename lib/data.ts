@@ -29,7 +29,36 @@ export const images = {
   team2: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&q=80",
   team3: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&q=80",
   team4: "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&q=80",
+
+  // Slider images
+  slider1: "https://images.unsplash.com/photo-1519741497674-611481863552?w=1920&q=80", // Wedding
+  slider2: "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=1920&q=80", // Business event
+  slider3: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=1920&q=80", // Concert/Music event
+  slider4: "https://images.unsplash.com/photo-1511578314322-379afb476865?w=1920&q=80", // Gala/Celebration
 };
+
+export const heroSliderImages = [
+  {
+    image: images.slider1,
+    title: "Luxury Weddings",
+    subtitle: "Celebrate Your Love Story",
+  },
+  {
+    image: images.slider2,
+    title: "Corporate Events",
+    subtitle: "Professional Excellence",
+  },
+  {
+    image: images.slider3,
+    title: "Concert & Music Events",
+    subtitle: "Entertainment at Its Best",
+  },
+  {
+    image: images.slider4,
+    title: "Gala Celebrations",
+    subtitle: "Elegance & Grandeur",
+  },
+];
 
 export const services = [
   {

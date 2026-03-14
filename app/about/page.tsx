@@ -2,14 +2,13 @@ import type { Metadata } from "next";
 import PageBanner from "@/components/PageBanner";
 import SectionHeading from "@/components/SectionHeading";
 import AnimatedSection from "@/components/AnimatedSection";
-import TeamCard from "@/components/TeamCard";
-import { images, teamMembers } from "@/lib/data";
+import { images } from "@/lib/data";
 import Image from "next/image";
 
 export const metadata: Metadata = {
   title: "About Us",
   description:
-    "Learn about Mangalya Event Management — our story, mission, vision, and the passionate team behind unforgettable celebrations.",
+    "Learn about Mangalya Event Management — our story, mission, vision, and why we're the best choice for your events.",
 };
 
 export default function AboutPage() {
@@ -168,22 +167,6 @@ export default function AboutPage() {
                   <p className="text-sm text-gray-600">{item.desc}</p>
                 </div>
               </AnimatedSection>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Team */}
-      <section className="section-padding bg-white">
-        <div className="container-custom mx-auto">
-          <SectionHeading
-            subtitle="Meet The Experts"
-            title="Our Team"
-            description="A passionate team of creative professionals dedicated to making every celebration extraordinary."
-          />
-          <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
-            {teamMembers.map((member, i) => (
-              <TeamCard key={member.name} {...member} index={i} />
             ))}
           </div>
         </div>

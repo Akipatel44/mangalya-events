@@ -9,7 +9,7 @@ import Image from "next/image";
 export const metadata: Metadata = {
   title: "Services",
   description:
-    "Explore our comprehensive event management services — wedding planning, corporate events, birthday parties, destination weddings, and more.",
+    "Explore our comprehensive event management services — wedding planning, corporate events, product launches, education events, and festival management.",
 };
 
 const detailedServices = [
@@ -44,14 +44,14 @@ const detailedServices = [
   {
     ...services[2],
     longDescription:
-      "From themed children's parties to milestone celebrations, we create birthday events that are fun, memorable, and perfectly tailored to the guest of honor. Our creative team designs unique experiences that guests of all ages will love.",
+      "Launch your products with maximum impact! We create buzz and excitement through innovative presentations, live demonstrations, interactive booths, and memorable brand experiences that captivate your target audience and generate lasting impressions.",
     features: [
-      "Theme Design & Setup",
-      "Entertainment & Games",
-      "Custom Cakes & Catering",
-      "Balloon & Decor Art",
-      "Photo Booth Setup",
-      "Return Gift Planning",
+      "Venue Selection & Setup",
+      "Product Display Design",
+      "Live Demonstrations",
+      "Media & Press Management",
+      "Guest Experience",
+      "Post-Launch Analytics",
     ],
     image: images.birthday1,
   },
@@ -72,28 +72,28 @@ const detailedServices = [
   {
     ...services[4],
     longDescription:
-      "Dream of getting married under the Tuscan sun or on a pristine beach in Goa? Our destination wedding service takes care of every detail — from travel and accommodation to venue décor and local coordination — so you can focus on celebrating your love.",
+      "Comprehensive educational events designed to inspire, engage, and empower your audience. From seminars and workshops to large-scale conferences and training sessions, we manage every aspect to create an enriching learning experience that drives professional growth and knowledge sharing.",
     features: [
-      "Destination Scouting",
-      "Travel & Accommodation",
-      "Local Coordination",
-      "Legal Documentation",
-      "Cultural Integration",
-      "Multi-day Event Planning",
+      "Venue Selection",
+      "Speaker Coordination",
+      "Audio/Visual Setup",
+      "Interactive Workshops",
+      "Certification Programs",
+      "Networking Facilitation",
     ],
     image: images.wedding2,
   },
   {
     ...services[5],
     longDescription:
-      "Our stage and decoration team transforms ordinary spaces into extraordinary venues. With an eye for detail and a passion for design, we create stunning visual experiences using flowers, lighting, fabrics, and thematic elements that leave guests in awe.",
+      "Bring communities together with spectacular festivals! Our comprehensive festival management covers everything from large-scale setup and vibrant decorations to entertainment coordination, crowd management, and safety measures. We create unforgettable celebration experiences.",
     features: [
-      "Stage Design & Build",
-      "Floral Art Design",
-      "Lighting & Effects",
-      "Theme Conceptualization",
-      "Entrance & Pathway Decor",
-      "Table & Chair Styling",
+      "Festival Planning & Design",
+      "Entertainment Coordination",
+      "Vendor/Stall Management",
+      "Crowd Management",
+      "Safety & Security Setup",
+      "Post-Festival Cleanup",
     ],
     image: images.decoration1,
   },

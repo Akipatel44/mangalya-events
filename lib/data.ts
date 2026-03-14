@@ -45,9 +45,9 @@ export const services = [
     icon: "briefcase",
   },
   {
-    title: "Birthday Parties",
+    title: "Product Launch Events",
     description:
-      "Themed celebrations, milestone birthdays, and surprise parties designed to create joyful memories for all ages.",
+      "Create buzz and excitement for your product launches with innovative presentations, demonstrations, and memorable brand experiences.",
     icon: "cake",
   },
   {
@@ -57,15 +57,15 @@ export const services = [
     icon: "heart",
   },
   {
-    title: "Destination Weddings",
+    title: "Education Events",
     description:
-      "Exotic locations, seamless logistics, and breathtaking setups for your dream destination wedding anywhere in the world.",
+      "Comprehensive educational seminars, workshops, conferences, and training sessions designed to inspire learning and professional growth.",
     icon: "plane",
   },
   {
-    title: "Stage & Decoration",
+    title: "Festival Events",
     description:
-      "Stunning stage designs, floral arrangements, lighting, and thematic decorations that transform any venue into a masterpiece.",
+      "Large-scale festival planning with vibrant decorations, entertainment, crowd management, and unforgettable experiences for hundreds of attendees.",
     icon: "sparkles",
   },
 ];

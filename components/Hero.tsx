@@ -62,7 +62,7 @@ export default function Hero() {
           transition={{ duration: 0.8, delay: 0.6 }}
           className="mb-6 text-sm uppercase tracking-[0.4em] text-gold sm:text-base"
         >
-          Event Management
+          Event Planner & Event Management
         </motion.p>
 
         <motion.div
@@ -78,7 +78,7 @@ export default function Hero() {
           transition={{ duration: 0.8, delay: 1 }}
           className="mb-10 font-serif text-xl text-white/80 sm:text-2xl md:text-3xl"
         >
-          Creating Unforgettable Celebrations
+          Crafting Moments That Last Forever
         </motion.p>
 
         <motion.div
@@ -113,10 +113,10 @@ export default function Hero() {
             transition={{ duration: 1.5, repeat: Infinity }}
             className="flex flex-col items-center gap-2"
           >
-            <span className="text-[10px] uppercase tracking-[0.2em] text-white/50">
+            {/* <span className="text-[10px] uppercase tracking-[0.2em] text-white/50">
               Scroll
             </span>
-            <svg className="h-5 w-5 text-gold/60" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" /></svg>
+            <svg className="h-5 w-5 text-gold/60" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" /></svg> */}
           </motion.div>
         </motion.div>
       </div>

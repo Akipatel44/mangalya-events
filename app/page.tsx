@@ -83,39 +83,6 @@ export default function Homepage() {
         </div>
       </section>
 
-      {/* Stats */}
-      <section className="relative overflow-hidden py-20">
-        <div className="absolute inset-0">
-          <Image
-            src={images.decoration1}
-            alt="Background"
-            fill
-            className="object-cover"
-            sizes="100vw"
-          />
-          <div className="absolute inset-0 bg-maroon/90" />
-        </div>
-        <div className="container-custom relative mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-2 gap-8 md:grid-cols-4">
-            {[
-              { number: "500+", label: "Events Organized" },
-              { number: "350+", label: "Happy Clients" },
-              { number: "50+", label: "Team Members" },
-              { number: "15+", label: "Years Experience" },
-            ].map((stat, i) => (
-              <AnimatedSection key={stat.label} delay={i * 0.1}>
-                <div className="text-center">
-                  <p className="font-serif text-3xl font-bold text-gold sm:text-4xl md:text-5xl">
-                    {stat.number}
-                  </p>
-                  <p className="mt-2 text-sm text-white/70">{stat.label}</p>
-                </div>
-              </AnimatedSection>
-            ))}
-          </div>
-        </div>
-      </section>
-
       {/* Gallery Preview */}
       <section className="section-padding bg-white">
         <div className="container-custom mx-auto">

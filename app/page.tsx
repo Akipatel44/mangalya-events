@@ -91,7 +91,7 @@ export default function Homepage() {
           <SectionHeading
             subtitle="Our Portfolio"
             title="Event Gallery"
-            description="A glimpse into the beautiful celebrations and events we have had the privilege of creating."
+            description="A Showcase of the beautiful Celebrations and Unforgettable events we have had the honor OF creating."
           />
           <GalleryGrid images={galleryImages.slice(0, 6)} />
           <div className="mt-12 text-center">
@@ -174,8 +174,7 @@ export default function Homepage() {
               Ready to Plan Your Dream Event?
             </h2>
             <p className="mx-auto mb-8 max-w-2xl text-white/70">
-              Whether it&apos;s a lavish wedding, a corporate gala, or an intimate celebration,
-              our team is ready to turn your vision into reality.
+              Whether a grand wedding a corporate gala, or Intimate gathering Our team ensure your vision Is brought to life with elegance and precision.
             </p>
             <Link
               href="/contact"

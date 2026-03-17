@@ -87,11 +87,7 @@ export default function AboutPage() {
                   Our Vision
                 </h3>
                 <p className="text-sm leading-relaxed text-gray-600">
-                  To be the most sought-after event management company in India,
-                  recognized for creating celebrations that transcend
-                  expectations and become cherished memories for a lifetime. We
-                  envision a world where every special moment is celebrated with
-                  the grandeur and elegance it deserves.
+                  To be India's most sought-after Event Managment Company For Celebrations -Creating extraordinary That exceed expectations and become cherished lifelong memories. we envision a world where every Special Moment is celebrated with elegance and grandeur.
                 </p>
               </div>
             </AnimatedSection>
@@ -105,11 +101,7 @@ export default function AboutPage() {
                   Our Mission
                 </h3>
                 <p className="text-sm leading-relaxed text-gray-600">
-                  To deliver exceptional event experiences through innovative
-                  design, flawless execution, and heartfelt service. We are
-                  committed to understanding the unique story of every client and
-                  translating it into a celebration that reflects their
-                  personality, culture, and dreams.
+                  To deliver Outstanding event experiences driven by Imovation. Precision, and exceptional service, we are dedicated to understanding, our client's Unique Stories and Creating Celebrations That authentically reflect their Personality Culture and vision.
                 </p>
               </div>
             </AnimatedSection>
@@ -123,7 +115,7 @@ export default function AboutPage() {
           <SectionHeading
             subtitle="Our Promise"
             title="Why Choose Mangalya"
-            description="We go above and beyond to ensure every event we manage is flawless, memorable, and uniquely yours."
+            description="we Strive beyond excellence to create events That are seamless, Memorable, and a true reflection of you."
           />
           <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
             {[
@@ -132,28 +124,28 @@ export default function AboutPage() {
                   <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z" /></svg>
                 ),
                 title: "Premium Quality",
-                desc: "Only the finest vendors, materials, and setups for your events.",
+                desc: "Delivering excellence Through Carefully Selected Vendors high-quality Materials and refined event Setups.",
               },
               {
                 icon: (
                   <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
                 ),
                 title: "Timely Execution",
-                desc: "Meticulous planning ensures every event runs perfectly on schedule.",
+                desc: "Careful planning and expert Management guarantee events That Run Smoothly and punctually.",
               },
               {
                 icon: (
                   <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" /></svg>
                 ),
                 title: "Creative Design",
-                desc: "Unique, personalized themes that bring your vision to life.",
+                desc: "Innovative and personalized design That transform your Vision Into Stunning reality.",
               },
               {
                 icon: (
                   <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" /></svg>
                 ),
                 title: "Experienced Team",
-                desc: "50+ professionals dedicated to making your celebration perfect.",
+                desc: "Our Team is experienced professionals is committed to crafting Seamless and exceptional celebrations.",
               },
             ].map((item, i) => (
               <AnimatedSection key={item.title} delay={i * 0.1}>

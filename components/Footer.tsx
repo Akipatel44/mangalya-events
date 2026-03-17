@@ -41,8 +41,7 @@ export default function Footer() {
               </div>
             </div>
             <p className="mb-6 text-sm leading-relaxed text-white/70">
-              Creating unforgettable celebrations with elegance, precision, and
-              passion. Your dream event is our commitment.
+              We Craft Unforgettable celebration with elegance, precision and Passion turning your Dream event Into reality.
             </p>
             {/* Social icons */}
             <div className="flex gap-3">

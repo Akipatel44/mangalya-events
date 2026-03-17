@@ -64,37 +64,37 @@ export const services = [
   {
     title: "Wedding Planning",
     description:
-      "From intimate ceremonies to grand celebrations, we craft every detail of your dream wedding with elegance and precision.",
+      "From Intimate gatherings to magnificent celebration we curate every detail of your dream wedding with Sophistication. elegance and Flawleess execution.",
     icon: "rings",
   },
   {
     title: "Corporate Events",
     description:
-      "Professional event management for conferences, seminars, product launches, and corporate galas that leave lasting impressions.",
+      "Expertly managing Conferencs, Seminars, Product launches, and Corporate galas with precision and professionalism To Create Memorable Experiences.",
     icon: "briefcase",
   },
   {
     title: "Product Launch Events",
     description:
-      "Create buzz and excitement for your product launches with innovative presentations, demonstrations, and memorable brand experiences.",
+      "Create excitement For your product launches through Innovative presentations, dynamic demonstrations and Impactful Brand Experinces.",
     icon: "cake",
   },
   {
     title: "Engagement Ceremonies",
     description:
-      "Beautifully crafted engagement celebrations that mark the beginning of your love story with grace and grandeur.",
+      "Creating elegant engagement Celebration that beautifully Mark the begining of your Journey together.",
     icon: "heart",
   },
   {
     title: "Education Events",
     description:
-      "Comprehensive educational seminars, workshops, conferences, and training sessions designed to inspire learning and professional growth.",
+      "Expertly organized Seminars workshops, conferences. And Training Sessions That promote learning, knowledge, sharing and Professional development.",
     icon: "plane",
   },
   {
     title: "Festival Events",
     description:
-      "Large-scale festival planning with vibrant decorations, entertainment, crowd management, and unforgettable experiences for hundreds of attendees.",
+      "Professionally managed. Large-Scale Festivals Featuring Vibrant decor, engaging entertain ment  efficient crowd management and Unforgettable experiences for every attendee.",
     icon: "sparkles",
   },
 ];

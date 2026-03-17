@@ -16,28 +16,28 @@ const detailedServices = [
   {
     ...services[0],
     longDescription:
-      "Our wedding planning service covers every aspect of your special day. From venue selection and decoration to catering, entertainment, photography, and guest management — we handle it all. Our experienced wedding planners work closely with you to understand your vision and bring it to life with creativity and perfection.",
+      "We offer end-to-end wedding Planning Services designed to Create a Flawless and Unforgettable experience. from Selecting the Perfect Venue To Curating exquisite Decor, Fine catering, entertainment and guest Coordination every detail is Throught fullly managed. Our dedicated team Collaborates with you to Transform your vision into a beautifully executed Celebration.",
     features: [
-      "Venue Selection & Setup",
-      "Catering & Menu Planning",
-      "Photography & Videography",
-      "Entertainment & Music",
-      "Guest Management",
-      "Invitation Design",
+      "Venue Selection & Premium setup",
+      "Gourmet catering & curated menus",
+      "Luxury photography & Videography",
+      "live Entertainment & music",
+      "personalised guest Management",
+      "Designer Invitation suites",
     ],
     image: images.wedding1,
   },
   {
     ...services[1],
     longDescription:
-      "We bring professionalism and creativity to corporate events. Whether it's an annual conference, product launch, awards ceremony, or team-building retreat, our corporate events team ensures flawless execution and memorable experiences that align with your brand values.",
+      "Our Corporate event are designed to reflect professionalism, Irmovation and brand experience, from confernce and Product launches to awards Ceremonies and tecum, building experiences i que curate and execute events that leave a lasting Imppression while staying True To your brand Identitur",
     features: [
-      "Conference Management",
-      "Product Launches",
-      "Awards Ceremonies",
-      "Team Building Events",
-      "Exhibition Setup",
-      "AV & Tech Support",
+      "End-To-End Conference management",
+      "Strategic Product launches",
+      "Elegant Awards ceremonies",
+      "Engiging team-building Experiences",
+      "Exhibition & Stall Design",
+      "Advance Av & Technical solution",
     ],
     image: images.corporate1,
   },
@@ -72,14 +72,14 @@ const detailedServices = [
   {
     ...services[4],
     longDescription:
-      "Comprehensive educational events designed to inspire, engage, and empower your audience. From seminars and workshops to large-scale conferences and training sessions, we manage every aspect to create an enriching learning experience that drives professional growth and knowledge sharing.",
+      "Our educational events are Thoughtfully designed To Inspire learning, encourage engagement and promote Professional growth. From seminars, and workshops To large-Scale Conferences and Training Programs We ensure Seamless execution and enriching enxperiences That drive knowledge sharing.",
     features: [
-      "Venue Selection",
-      "Speaker Coordination",
-      "Audio/Visual Setup",
-      "Interactive Workshops",
-      "Certification Programs",
-      "Networking Facilitation",
+      "Premium venue Selection",
+      "Professional speaker Management",
+      "State-Of-The-Art Audio/Visval setup",
+      "Immersive Interactive workshops",
+      "Accredited certification Programs",
+      "Curated Networking Experiences",
     ],
     image: images.wedding2,
   },
@@ -133,7 +133,7 @@ export default function ServicesPage() {
           <SectionHeading
             subtitle="Comprehensive Solutions"
             title="Event Services"
-            description="We offer a full spectrum of event management services, each delivered with our signature blend of creativity and precision."
+            description="we provide end-to-end event Management services Thought Fully delivered with creativity, Precision and attention to detail."
           />
 
           <div className="space-y-20">
@@ -204,8 +204,7 @@ export default function ServicesPage() {
               Have a Specific Requirement?
             </h2>
             <p className="mx-auto mb-8 max-w-2xl text-white/70">
-              Every event is unique. Contact us to discuss your specific needs
-              and let us create a customized plan just for you.
+              Every Celebration is Unique get In Touch with us to discuss your needs. and we will create a customized Plan That perfectly reflects your Vision.
             </p>
             <Link
               href="/contact"

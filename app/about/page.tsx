@@ -20,60 +20,6 @@ export default function AboutPage() {
         image={images.about}
       />
 
-      {/* Company Story */}
-      <section className="section-padding bg-beige">
-        <div className="container-custom mx-auto">
-          <div className="grid items-center gap-12 lg:grid-cols-2">
-            <AnimatedSection direction="left">
-              <div className="relative">
-                <Image
-                  src={images.wedding3}
-                  alt="Our story"
-                  width={600}
-                  height={500}
-                  className="rounded-2xl object-cover shadow-xl"
-                />
-                <div className="absolute -bottom-6 -right-6 hidden rounded-2xl bg-gold p-6 text-white shadow-xl md:block">
-                  <p className="font-serif text-3xl font-bold">15+</p>
-                  <p className="text-sm">Years of Excellence</p>
-                </div>
-              </div>
-            </AnimatedSection>
-
-            <AnimatedSection direction="right">
-              <span className="mb-2 inline-block text-xs font-semibold uppercase tracking-[0.3em] text-gold">
-                Who We Are
-              </span>
-              <h2 className="mb-6 font-serif text-3xl font-bold text-maroon sm:text-4xl">
-                Crafting Celebrations Since 2010
-              </h2>
-              <div className="space-y-4 text-sm leading-relaxed text-gray-600">
-                <p>
-                  Mangalya Event Management was born from a simple yet powerful
-                  belief: every celebration deserves to be extraordinary. Founded
-                  in 2010 by Arun Mehta, we started as a small team of
-                  passionate event enthusiasts with a vision to transform the
-                  event management landscape in India.
-                </p>
-                <p>
-                  Over the past 15 years, we have grown into one of the most
-                  trusted names in luxury event management. From intimate
-                  gatherings to grand celebrations with thousands of guests, we
-                  bring the same level of dedication, creativity, and attention
-                  to detail to every event we undertake.
-                </p>
-                <p>
-                  Our journey has been marked by countless smiles, grateful
-                  families, and events that have set new benchmarks in elegance
-                  and sophistication. Today, we are proud to have organized over
-                  500 events across India and abroad.
-                </p>
-              </div>
-            </AnimatedSection>
-          </div>
-        </div>
-      </section>
-
       {/* Mission & Vision */}
       <section className="section-padding bg-white">
         <div className="container-custom mx-auto">

@@ -105,30 +105,6 @@ export default function Homepage() {
         </div>
       </section>
 
-      {/* Events Preview */}
-      <section className="section-padding bg-beige">
-        <div className="container-custom mx-auto">
-          <SectionHeading
-            subtitle="Recent Celebrations"
-            title="Featured Events"
-            description="Some of our most memorable events that showcase our commitment to excellence and attention to detail."
-          />
-          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
-            {eventsList.map((event, i) => (
-              <EventCard key={event.title} {...event} index={i} />
-            ))}
-          </div>
-          <div className="mt-12 text-center">
-            <Link
-              href="/events"
-              className="inline-block rounded-full border-2 border-gold px-8 py-3 text-sm font-semibold uppercase tracking-wider text-gold transition-all hover:bg-gold hover:text-white"
-            >
-              View All Events
-            </Link>
-          </div>
-        </div>
-      </section>
-
       {/* Testimonials Preview */}
       <section className="section-padding bg-white">
         <div className="container-custom mx-auto">

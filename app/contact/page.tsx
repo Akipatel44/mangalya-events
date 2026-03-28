@@ -21,10 +21,10 @@ export default function ContactPage() {
             {/* Contact info */}
             <AnimatedSection direction="left">
               <span className="mb-2 inline-block text-xs font-semibold uppercase tracking-[0.3em] text-gold">
-                Reach Out
+                Let's Plan Together
               </span>
               <h2 className="mb-6 font-serif text-3xl font-bold text-maroon sm:text-4xl">
-                Let&apos;s Plan Together
+                Get In Touch With Us
               </h2>
               <p className="mb-8 text-sm leading-relaxed text-gray-600">
                 Have a vision for your next celebration? We&apos;d love to hear
@@ -39,14 +39,14 @@ export default function ContactPage() {
                       <svg className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" /><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" /></svg>
                     ),
                     title: "Our Office",
-                    detail: "123 Event Street, Andheri West, Mumbai, Maharashtra 400053, India",
+                    detail: "A Block 1020, Sun WestBank, Near Vallabh Sadan, Opp City Gold Cinema, Ashram Road, Ahmedabad - 380009",
                   },
                   {
                     icon: (
                       <svg className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
                     ),
                     title: "Phone",
-                    detail: "+91 98765 43210 / +91 98765 43211",
+                    detail: "+91 9909428973, +91 9624519202, +91 9265572669",
                   },
                   {
                     icon: (
@@ -86,7 +86,7 @@ export default function ContactPage() {
                   Follow Us
                 </p>
                 <div className="flex gap-3">
-                  {["Facebook", "Instagram", "Twitter", "YouTube"].map(
+                  {["Facebook", "Instagram", "YouTube"].map(
                     (social) => (
                       <a
                         key={social}

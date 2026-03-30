@@ -9,18 +9,18 @@ const config: Config = {
     extend: {
       colors: {
         gold: {
-          DEFAULT: "#C9A227",
-          light: "#D4B44A",
-          dark: "#A8861E",
+          DEFAULT: "#C9A970",
+          light: "#D4B985",
+          dark: "#B8956A",
         },
         maroon: {
-          DEFAULT: "#5A0F1C",
-          light: "#7A1F2E",
-          dark: "#3E0A13",
+          DEFAULT: "#4f4e53",
+          light: "#59585C",
+          dark: "#3D3C40",
         },
         beige: {
-          DEFAULT: "#FFF8F0",
-          dark: "#F5EDE0",
+          DEFAULT: "#F5F3F0",
+          dark: "#E8E6E3",
         },
       },
       fontFamily: {

@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
 import { usePathname } from "next/navigation";
 
@@ -43,25 +44,24 @@ export default function Navbar() {
     >
       <div className="container-custom mx-auto flex items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
         {/* Logo */}
-        <Link href="/" className="flex items-center gap-2">
-          <div className="flex h-10 w-10 items-center justify-center rounded-full bg-gold">
-            <span className="font-serif text-lg font-bold text-white">M</span>
-          </div>
-          <div>
-            <h1
-              className={`font-serif text-lg font-bold leading-tight transition-colors ${
-                scrolled ? "text-maroon" : "text-white"
-              }`}
-            >
-              Mangalya
-            </h1>
-            <p
-              className={`-mt-1 text-[10px] uppercase tracking-[0.2em] transition-colors ${
-                scrolled ? "text-gold" : "text-gold-light"
-              }`}
-            >
-              Events
-            </p>
+        <Link href="/" className="flex items-center">
+          <div
+            className={`rounded-xl border px-2.5 py-1.5 shadow-lg backdrop-blur-sm transition-all ${
+              scrolled
+                ? "border-gold/35 bg-maroon/90"
+                : "border-white/20 bg-black/45"
+            }`}
+          >
+            <div className="relative w-32 sm:w-36 lg:w-40">
+              <Image
+                src="/images/mangalya.png"
+                alt="Mangalya Events"
+                width={674}
+                height={188}
+                priority
+                className="h-auto w-full object-contain contrast-125 brightness-125 saturate-125 drop-shadow-[0_1px_2px_rgba(0,0,0,0.85)]"
+              />
+            </div>
           </div>
         </Link>
 

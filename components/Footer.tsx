@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 const quickLinks = [
   { href: "/", label: "Home" },
@@ -25,20 +26,14 @@ export default function Footer() {
         <div className="grid gap-12 md:grid-cols-2 lg:grid-cols-4">
           {/* Company info */}
           <div>
-            <div className="mb-4 flex items-center gap-2">
-              <div className="flex h-10 w-10 items-center justify-center rounded-full bg-gold">
-                <span className="font-serif text-lg font-bold text-white">
-                  M
-                </span>
-              </div>
-              <div>
-                <h3 className="font-serif text-lg font-bold text-white">
-                  Mangalya
-                </h3>
-                <p className="-mt-1 text-[10px] uppercase tracking-[0.2em] text-gold">
-                  Events
-                </p>
-              </div>
+            <div className="mb-4 inline-flex rounded-xl border border-gold/30 bg-maroon/80 p-2.5 shadow-lg">
+              <Image
+                src="/images/mangalya.png"
+                alt="Mangalya Events"
+                width={674}
+                height={188}
+                className="h-auto w-36 object-contain brightness-125 contrast-125 drop-shadow-[0_1px_2px_rgba(0,0,0,0.8)] sm:w-40"
+              />
             </div>
             <p className="mb-6 text-sm leading-relaxed text-white/70">
               We Craft Unforgettable celebration with elegance, precision and Passion turning your Dream event Into reality.

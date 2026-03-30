@@ -19,6 +19,10 @@ export const metadata: Metadata = {
     "destination weddings",
     "event decoration",
   ],
+  // ✅ Google Verification Added Here
+  verification: {
+    google: "_Rsa-2EWYbP4oUmNqK1_BmcfDdHiNpSIp9PHxptiqzs",
+  },
   openGraph: {
     title: "Mangalya Event Management | Creating Unforgettable Celebrations",
     description:

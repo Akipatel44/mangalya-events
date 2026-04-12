@@ -20,6 +20,9 @@ export const images = {
   birthday2: "https://images.unsplash.com/photo-1464349095431-e9a21285b5f3?w=800&q=80",
   engagement1: "https://images.unsplash.com/photo-1583939003579-730e3918a45a?w=800&q=80",
   engagement2: "https://images.unsplash.com/photo-1515934751635-c81c6bc9a2d8?w=800&q=80",
+  engagementCeremony: "/images/engagement_ceremony.jpeg",
+  kankotriLekhan: "/images/kankotri%20lekhan.jpeg",
+  religiousEventShreenathji: "/images/religious_event_shreenathji_theme.jpeg",
   entryDecoration: "/images/entry_decoration.jpeg",
   decoration1: "https://images.unsplash.com/photo-1478146059778-26028b07395a?w=800&q=80",
   decoration2: "https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?w=800&q=80",
@@ -112,6 +115,9 @@ export const galleryImages = [
   { src: images.birthday2, alt: "Themed Birthday Party", category: "Birthdays" },
   { src: images.corporate3, alt: "Team Building Event", category: "Corporate" },
   { src: images.engagement2, alt: "Ring Ceremony", category: "Engagements" },
+  { src: images.engagementCeremony, alt: "Engagement Ceremony Setup", category: "Engagements" },
+  { src: images.kankotriLekhan, alt: "Kankotri Lekhan Ceremony", category: "Cultural" },
+  { src: images.religiousEventShreenathji, alt: "Shreenathji Theme Religious Event", category: "Religious" },
   { src: images.decoration2, alt: "Stage Decoration", category: "Weddings" },
 ];
 
@@ -138,7 +144,7 @@ export const eventsList = [
     date: "Oct 10, 2025",
   },
   {
-    image: images.engagement1,
+    image: images.engagementCeremony,
     title: "Sunset Engagement Ceremony",
     description:
       "A romantic beachside engagement with fairy lights, live music, and a breathtaking sunset backdrop.",

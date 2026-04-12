@@ -50,6 +50,39 @@ function ServiceIcon({ type }: { type: string }) {
 }
 
 export default function Homepage() {
+  const homeGalleryImages = [
+    {
+      src: images.engagementCeremony,
+      alt: "Engagement Ceremony Setup",
+      category: "Engagements",
+    },
+    {
+      src: images.kankotriLekhan,
+      alt: "Kankotri Lekhan Ceremony",
+      category: "Cultural",
+    },
+    {
+      src: images.religiousEventShreenathji,
+      alt: "Shreenathji Theme Religious Event",
+      category: "Religious",
+    },
+    {
+      src: images.entryDecoration,
+      alt: "Grand Entry Decoration",
+      category: "Decorations",
+    },
+    {
+      src: images.wedding1,
+      alt: "Royal Wedding Ceremony",
+      category: "Weddings",
+    },
+    {
+      src: images.corporate1,
+      alt: "Corporate Conference",
+      category: "Corporate",
+    },
+  ];
+
   return (
     <>
       {/* Image Slider */}
@@ -93,7 +126,7 @@ export default function Homepage() {
             title="Event Gallery"
             description="A Showcase of the beautiful Celebrations and Unforgettable events we have had the honor OF creating."
           />
-          <GalleryGrid images={galleryImages.slice(0, 6)} />
+          <GalleryGrid images={homeGalleryImages} />
           <div className="mt-12 text-center">
             <Link
               href="/gallery"

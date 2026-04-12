@@ -15,10 +15,10 @@ export const metadata: Metadata = {
 
 const moreEvents = [
   {
-    image: images.wedding4,
-    title: "Vintage Garden Wedding",
+    image: images.kankotriLekhan,
+    title: "Kankotri Lekhan Ceremony",
     description:
-      "A charming outdoor wedding set in a lush garden with vintage-inspired décor, fairy lights, and a live acoustic band.",
+      "A beautifully curated kankotri lekhan ceremony honoring tradition with elegant decor, ritual arrangements, and family-centered moments.",
     date: "Aug 20, 2025",
   },
   {
@@ -29,17 +29,17 @@ const moreEvents = [
     date: "Jul 15, 2025",
   },
   {
-    image: images.decoration2,
-    title: "Royal Anniversary Celebration",
+    image: images.religiousEventShreenathji,
+    title: "Shreenathji Theme Religious Event",
     description:
-      "A golden anniversary celebration featuring a themed décor, cultural performances, and a heartfelt tribute video montage.",
+      "A devotional event inspired by Shreenathji aesthetics featuring thematic decor, spiritual performances, and graceful ceremonial flow.",
     date: "Jun 8, 2025",
   },
   {
-    image: images.engagement2,
-    title: "Rooftop Engagement Soirée",
+    image: images.engagementCeremony,
+    title: "Engagement Celebration",
     description:
-      "A sophisticated rooftop engagement party with panoramic city views, champagne towers, and live jazz entertainment.",
+      "A modern engagement celebration with personalized styling, floral detailing, and warm guest experiences.",
     date: "May 22, 2025",
   },
 ];
@@ -87,7 +87,7 @@ export default function EventsPage() {
       <section className="relative overflow-hidden py-24">
         <div className="absolute inset-0">
           <Image
-            src={images.entryDecoration}
+            src={images.religiousEventShreenathji}
             alt="Events"
             fill
             className="object-cover"

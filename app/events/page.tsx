@@ -87,7 +87,7 @@ export default function EventsPage() {
       <section className="relative overflow-hidden py-24">
         <div className="absolute inset-0">
           <Image
-            src={images.decoration1}
+            src={images.entryDecoration}
             alt="Events"
             fill
             className="object-cover"

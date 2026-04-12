@@ -133,7 +133,7 @@ export default function Homepage() {
       <section className="relative overflow-hidden py-24">
         <div className="absolute inset-0">
           <Image
-            src={images.wedding2}
+            src={images.entryDecoration}
             alt="CTA Background"
             fill
             className="object-cover"

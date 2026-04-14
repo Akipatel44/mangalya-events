@@ -24,6 +24,11 @@ export const images = {
   kankotriLekhan: "/images/kankotri%20lekhan.jpeg",
   religiousEventShreenathji: "/images/religious_event_shreenathji_theme.jpeg",
   entryDecoration: "/images/entry_decoration.jpeg",
+  dharmikEvent: "/images/Dharmik%20Event.jpeg",
+  littleBirthdayBaby: "/images/Little%20Baby%20Birthday%20Celebration.jpeg",
+  panamGroupBusiness: "/images/Panam%20Group%20Business%20Event.jpeg",
+  pujaHavanDecoration: "/images/Puja%20Havan%20Decoration%20With%20Original%20Natural%20Leaves.jpeg",
+  rkGroupBusiness: "/images/RK%20Group%20Business%20Event.jpeg",
   decoration1: "https://images.unsplash.com/photo-1478146059778-26028b07395a?w=800&q=80",
   decoration2: "https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?w=800&q=80",
   stage1: "https://images.unsplash.com/photo-1492684223f8-e1f24f5d6b14?w=800&q=80",
@@ -119,6 +124,11 @@ export const galleryImages = [
   { src: images.kankotriLekhan, alt: "Kankotri Lekhan Ceremony", category: "Cultural" },
   { src: images.religiousEventShreenathji, alt: "Shreenathji Theme Religious Event", category: "Religious" },
   { src: images.decoration2, alt: "Stage Decoration", category: "Weddings" },
+  { src: images.dharmikEvent, alt: "Dharmik Event Celebration", category: "Religious" },
+  { src: images.littleBirthdayBaby, alt: "Little Baby Birthday Celebration", category: "Birthdays" },
+  { src: images.panamGroupBusiness, alt: "Panam Group Business Event", category: "Corporate" },
+  { src: images.pujaHavanDecoration, alt: "Puja Havan Decoration", category: "Decorations" },
+  { src: images.rkGroupBusiness, alt: "RK Group Business Event", category: "Corporate" },
 ];
 
 export const eventsList = [

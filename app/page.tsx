@@ -72,6 +72,31 @@ export default function Homepage() {
       category: "Decorations",
     },
     {
+      src: images.dharmikEvent,
+      alt: "Dharmik Event Celebration",
+      category: "Religious",
+    },
+    {
+      src: images.littleBirthdayBaby,
+      alt: "Little Baby Birthday Celebration",
+      category: "Birthdays",
+    },
+    {
+      src: images.panamGroupBusiness,
+      alt: "Panam Group Business Event",
+      category: "Corporate",
+    },
+    {
+      src: images.pujaHavanDecoration,
+      alt: "Puja Havan Decoration",
+      category: "Decorations",
+    },
+    {
+      src: images.rkGroupBusiness,
+      alt: "RK Group Business Event",
+      category: "Corporate",
+    },
+    {
       src: images.wedding1,
       alt: "Royal Wedding Ceremony",
       category: "Weddings",

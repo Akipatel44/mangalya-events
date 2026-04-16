@@ -112,26 +112,86 @@ export default function ContactPage() {
       {/* Map */}
       <section className="h-[400px] w-full">
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d241317.11609823277!2d72.74109995709657!3d19.08219783958221!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c6306644edc1%3A0x5da4ed8f8d648c69!2sMumbai%2C%20Maharashtra%2C%20India!5e0!3m2!1sen!2sus!4v1703000000000!5m2!1sen!2sus"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3671.5015624999996!2d72.5714!3d23.0225!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e84d100000001%3A0x4d63e3f347466bc1!2sAhmedabad%2C%20Gujarat%2C%20India!5e0!3m2!1sen!2sus!4v1703000000000!5m2!1sen!2sus"
           width="100%"
           height="100%"
           style={{ border: 0 }}
           allowFullScreen
           loading="lazy"
           referrerPolicy="no-referrer-when-downgrade"
-          title="Mangalya Event Management Location"
+          title="Mangalya Event Management Location - Ahmedabad"
         />
       </section>
     </>
   );
 }
 
+interface FormData {
+  fullName: string;
+  phoneNumber: string;
+  email: string;
+  eventType: string;
+  eventDate: string;
+  message: string;
+}
+
 function ContactForm() {
   const [submitted, setSubmitted] = useState(false);
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState<string | null>(null);
+  const [formData, setFormData] = useState<FormData>({
+    fullName: '',
+    phoneNumber: '',
+    email: '',
+    eventType: '',
+    eventDate: '',
+    message: '',
+  });
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleChange = (
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>
+  ) => {
+    const { id, value } = e.target;
+    setFormData((prev) => ({
+      ...prev,
+      [id]: value,
+    }));
+  };
+
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    setSubmitted(true);
+    setError(null);
+    setLoading(true);
+
+    try {
+      const response = await fetch('/api/send-email', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
+      });
+
+      const data = await response.json();
+
+      if (!response.ok) {
+        throw new Error(data.error || 'Failed to send message');
+      }
+
+      setSubmitted(true);
+      setFormData({
+        fullName: '',
+        phoneNumber: '',
+        email: '',
+        eventType: '',
+        eventDate: '',
+        message: '',
+      });
+    } catch (err) {
+      setError(err instanceof Error ? err.message : 'An error occurred');
+    } finally {
+      setLoading(false);
+    }
   };
 
   if (submitted) {
@@ -146,7 +206,7 @@ function ContactForm() {
           </h3>
           <p className="text-sm text-gray-600">
             We&apos;ve received your message and will get back to you within 24
-            hours.
+            hours. A confirmation email has been sent to your inbox.
           </p>
           <button
             onClick={() => setSubmitted(false)}
@@ -168,35 +228,48 @@ function ContactForm() {
         Send Us a Message
       </h3>
 
+      {error && (
+        <div className="mb-5 rounded-lg bg-red-50 p-4 text-sm text-red-700">
+          <p className="font-medium">Error: {error}</p>
+          <p className="mt-1 text-xs">Please try again later.</p>
+        </div>
+      )}
+
       <div className="space-y-5">
         <div className="grid gap-5 sm:grid-cols-2">
           <div>
             <label
-              htmlFor="name"
+              htmlFor="fullName"
               className="mb-1.5 block text-xs font-medium uppercase tracking-wider text-gray-500"
             >
               Full Name
             </label>
             <input
               type="text"
-              id="name"
+              id="fullName"
               required
-              className="w-full rounded-lg border border-gray-200 px-4 py-3 text-sm text-gray-700 outline-none transition-colors focus:border-gold focus:ring-1 focus:ring-gold"
-              placeholder="John Doe"
+              value={formData.fullName}
+              onChange={handleChange}
+              disabled={loading}
+              className="w-full rounded-lg border border-gray-200 px-4 py-3 text-sm text-gray-700 outline-none transition-colors focus:border-gold focus:ring-1 focus:ring-gold disabled:bg-gray-100"
+              placeholder="Enter Your Name Here"
             />
           </div>
           <div>
             <label
-              htmlFor="phone"
+              htmlFor="phoneNumber"
               className="mb-1.5 block text-xs font-medium uppercase tracking-wider text-gray-500"
             >
               Phone Number
             </label>
             <input
               type="tel"
-              id="phone"
+              id="phoneNumber"
               required
-              className="w-full rounded-lg border border-gray-200 px-4 py-3 text-sm text-gray-700 outline-none transition-colors focus:border-gold focus:ring-1 focus:ring-gold"
+              value={formData.phoneNumber}
+              onChange={handleChange}
+              disabled={loading}
+              className="w-full rounded-lg border border-gray-200 px-4 py-3 text-sm text-gray-700 outline-none transition-colors focus:border-gold focus:ring-1 focus:ring-gold disabled:bg-gray-100"
               placeholder="+91 98765 43210"
             />
           </div>
@@ -213,44 +286,53 @@ function ContactForm() {
             type="email"
             id="email"
             required
-            className="w-full rounded-lg border border-gray-200 px-4 py-3 text-sm text-gray-700 outline-none transition-colors focus:border-gold focus:ring-1 focus:ring-gold"
-            placeholder="john@example.com"
+            value={formData.email}
+            onChange={handleChange}
+            disabled={loading}
+            className="w-full rounded-lg border border-gray-200 px-4 py-3 text-sm text-gray-700 outline-none transition-colors focus:border-gold focus:ring-1 focus:ring-gold disabled:bg-gray-100"
+            placeholder="Enter Your Email Address"
           />
         </div>
 
         <div>
           <label
-            htmlFor="event-type"
+            htmlFor="eventType"
             className="mb-1.5 block text-xs font-medium uppercase tracking-wider text-gray-500"
           >
             Event Type
           </label>
           <select
-            id="event-type"
+            id="eventType"
             required
-            className="w-full rounded-lg border border-gray-200 px-4 py-3 text-sm text-gray-700 outline-none transition-colors focus:border-gold focus:ring-1 focus:ring-gold"
+            value={formData.eventType}
+            onChange={handleChange}
+            disabled={loading}
+            className="w-full rounded-lg border border-gray-200 px-4 py-3 text-sm text-gray-700 outline-none transition-colors focus:border-gold focus:ring-1 focus:ring-gold disabled:bg-gray-100"
           >
             <option value="">Select event type</option>
-            <option>Wedding</option>
-            <option>Corporate Event</option>
-            <option>Birthday Party</option>
-            <option>Engagement Ceremony</option>
-            <option>Destination Wedding</option>
-            <option>Other</option>
+            <option value="Wedding">Wedding</option>
+            <option value="Corporate Event">Corporate Event</option>
+            <option value="Birthday Party">Birthday Party</option>
+            <option value="Engagement Ceremony">Engagement Ceremony</option>
+            <option value="Destination Wedding">Destination Wedding</option>
+            <option value="Other">Other</option>
           </select>
         </div>
 
         <div>
           <label
-            htmlFor="date"
+            htmlFor="eventDate"
             className="mb-1.5 block text-xs font-medium uppercase tracking-wider text-gray-500"
           >
             Preferred Event Date
           </label>
           <input
             type="date"
-            id="date"
-            className="w-full rounded-lg border border-gray-200 px-4 py-3 text-sm text-gray-700 outline-none transition-colors focus:border-gold focus:ring-1 focus:ring-gold"
+            id="eventDate"
+            value={formData.eventDate}
+            onChange={handleChange}
+            disabled={loading}
+            className="w-full rounded-lg border border-gray-200 px-4 py-3 text-sm text-gray-700 outline-none transition-colors focus:border-gold focus:ring-1 focus:ring-gold disabled:bg-gray-100"
           />
         </div>
 
@@ -265,7 +347,10 @@ function ContactForm() {
             id="message"
             rows={4}
             required
-            className="w-full resize-none rounded-lg border border-gray-200 px-4 py-3 text-sm text-gray-700 outline-none transition-colors focus:border-gold focus:ring-1 focus:ring-gold"
+            value={formData.message}
+            onChange={handleChange}
+            disabled={loading}
+            className="w-full resize-none rounded-lg border border-gray-200 px-4 py-3 text-sm text-gray-700 outline-none transition-colors focus:border-gold focus:ring-1 focus:ring-gold disabled:bg-gray-100"
             placeholder="Tell us about your dream event..."
           />
         </div>
@@ -273,9 +358,10 @@ function ContactForm() {
 
       <button
         type="submit"
-        className="mt-6 w-full rounded-full bg-gold py-3.5 text-sm font-semibold uppercase tracking-wider text-white transition-all hover:bg-gold-dark hover:shadow-lg hover:shadow-gold/25"
+        disabled={loading}
+        className="mt-6 w-full rounded-full bg-gold py-3.5 text-sm font-semibold uppercase tracking-wider text-white transition-all hover:bg-gold-dark hover:shadow-lg hover:shadow-gold/25 disabled:opacity-70 disabled:cursor-not-allowed"
       >
-        Send Message
+        {loading ? 'Sending...' : 'Send Message'}
       </button>
     </form>
   );

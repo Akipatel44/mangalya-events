@@ -5,19 +5,19 @@ import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
   title: {
-    default: "Mangalya Event Management | Creating Unforgettable Celebrations",
-    template: "%s | Mangalya Event Management",
+    default: "Mangalya Event Management | Wedding Planner in Ahmedabad, Gujarat",
+    template: "%s | Mangalya Event Management Ahmedabad",
   },
   description:
-    "Mangalya Event Management specializes in luxury weddings, corporate events, and celebrations. Creating unforgettable moments with elegance and perfection.",
+    "Mangalya Event Management is a leading wedding and event planner in Ahmedabad, Gujarat. We specialize in luxury weddings, corporate events, and unforgettable celebrations.",
   keywords: [
-    "event management",
-    "wedding planning",
-    "luxury weddings",
-    "corporate events",
-    "birthday parties",
-    "destination weddings",
-    "event decoration",
+    "event management Ahmedabad",
+    "wedding planner Ahmedabad",
+    "event planner Gujarat",
+    "luxury weddings Ahmedabad",
+    "corporate events Ahmedabad",
+    "birthday party planner Ahmedabad",
+    "destination weddings Gujarat",
   ],
   // ✅ Google Verification Added Here
   verification: {
@@ -28,13 +28,13 @@ export const metadata: Metadata = {
   icons: {
     icon: '/favicon.ico',
   },
-  
+
   openGraph: {
-    title: "Mangalya Event Management | Creating Unforgettable Celebrations",
+    title: "Mangalya Event Management | Ahmedabad, Gujarat",
     description:
-      "Specializing in luxury weddings, corporate events, and celebrations. Creating unforgettable moments with elegance and perfection.",
+      "Top event management company in Ahmedabad, Gujarat specializing in weddings and corporate events.",
     type: "website",
-    locale: "en_US",
+    locale: "en_IN",
     siteName: "Mangalya Event Management",
   },
 };

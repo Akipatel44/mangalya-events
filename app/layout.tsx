@@ -24,11 +24,6 @@ export const metadata: Metadata = {
     google: "_Rsa-2EWYbP4oUmNqK1_BmcfDdHiNpSIp9PHxptiqzs",
   },
 
-  // ✅ Favicon added here
-  icons: {
-    icon: '/favicon.ico',
-  },
-
   openGraph: {
     title: "Mangalya Event Management | Ahmedabad, Gujarat",
     description:

@@ -161,12 +161,7 @@ export default function ImageSlider({ images }: ImageSliderProps) {
         ))}
       </div>
 
-      {/* Counter */}
-      <div className="absolute top-6 sm:top-8 right-4 sm:right-8 z-20 flex items-center gap-2 rounded-full bg-white/10 px-4 py-2 backdrop-blur-sm">
-        <span className="text-xs font-semibold text-white sm:text-sm">
-          {currentIndex + 1} / {images.length}
-        </span>
-      </div>
+     
     </section>
   );
 }

@@ -1,0 +1,156 @@
+{
+  "communities": {
+    "0": [
+      "animation_framermotion",
+      "deployment_vercel",
+      "framework_nextjs14",
+      "project_mangalya_events",
+      "styling_tailwindcss"
+    ],
+    "1": [
+      "components_imageslider_tsx",
+      "imageslider_gotonext",
+      "imageslider_gotoprevious",
+      "imageslider_gotoslide"
+    ],
+    "2": [
+      "app_page_tsx",
+      "app_services_page_tsx",
+      "page_serviceicon"
+    ],
+    "3": [
+      "app_layout_tsx",
+      "layout_rootlayout"
+    ],
+    "4": [
+      "app_sitemap_ts",
+      "sitemap_sitemap"
+    ],
+    "5": [
+      "app_api_send_email_route_ts",
+      "route_post"
+    ],
+    "6": [
+      "app_gallery_page_tsx",
+      "page_gallerypage"
+    ],
+    "7": [
+      "animatedsection_animatedsection",
+      "components_animatedsection_tsx"
+    ],
+    "8": [
+      "components_eventcard_tsx",
+      "eventcard_eventcard"
+    ],
+    "9": [
+      "components_gallerygrid_tsx",
+      "gallerygrid_gallerygrid"
+    ],
+    "10": [
+      "components_lightbox_tsx",
+      "lightbox_handleesc"
+    ],
+    "11": [
+      "components_navbar_tsx",
+      "navbar_navbar"
+    ],
+    "12": [
+      "components_sectionheading_tsx",
+      "sectionheading_sectionheading"
+    ],
+    "13": [
+      "components_servicecard_tsx",
+      "servicecard_servicecard"
+    ],
+    "14": [
+      "components_teamcard_tsx",
+      "teamcard_teamcard"
+    ],
+    "15": [
+      "components_testimonialcard_tsx",
+      "testimonialcard_testimonialcard"
+    ],
+    "16": [
+      "component_navbar",
+      "page_home"
+    ],
+    "17": [
+      "next_env_d_ts"
+    ],
+    "18": [
+      "next_config_mjs"
+    ],
+    "19": [
+      "postcss_config_mjs"
+    ],
+    "20": [
+      "tailwind_config_ts"
+    ],
+    "21": [
+      "app_head_tsx"
+    ],
+    "22": [
+      "app_about_page_tsx"
+    ],
+    "23": [
+      "app_contact_page_tsx"
+    ],
+    "24": [
+      "app_events_page_tsx"
+    ],
+    "25": [
+      "app_testimonials_page_tsx"
+    ],
+    "26": [
+      "components_footer_tsx"
+    ],
+    "27": [
+      "components_hero_tsx"
+    ],
+    "28": [
+      "components_pagebanner_tsx"
+    ],
+    "29": [
+      "lib_data_ts"
+    ],
+    "30": [
+      "language_typescript"
+    ],
+    "31": [
+      "email_resend"
+    ],
+    "32": [
+      "vcs_github"
+    ],
+    "33": [
+      "page_about"
+    ],
+    "34": [
+      "page_services"
+    ],
+    "35": [
+      "page_gallery"
+    ],
+    "36": [
+      "page_events"
+    ],
+    "37": [
+      "page_contact"
+    ],
+    "38": [
+      "design_colorpalette"
+    ],
+    "39": [
+      "branding_rebranding"
+    ]
+  },
+  "cohesion": {},
+  "god_nodes": [
+    {
+      "id": "page_serviceicon",
+      "label": "ServiceIcon()",
+      "degree": 2
+    }
+  ],
+  "surprises": []
+}

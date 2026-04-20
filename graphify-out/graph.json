@@ -1,0 +1,654 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "next-env.d.ts",
+      "file_type": "code",
+      "source_file": "next-env.d.ts",
+      "source_location": "L1",
+      "id": "next_env_d_ts"
+    },
+    {
+      "label": "next.config.mjs",
+      "file_type": "code",
+      "source_file": "next.config.mjs",
+      "source_location": "L1",
+      "id": "next_config_mjs"
+    },
+    {
+      "label": "postcss.config.mjs",
+      "file_type": "code",
+      "source_file": "postcss.config.mjs",
+      "source_location": "L1",
+      "id": "postcss_config_mjs"
+    },
+    {
+      "label": "tailwind.config.ts",
+      "file_type": "code",
+      "source_file": "tailwind.config.ts",
+      "source_location": "L1",
+      "id": "tailwind_config_ts"
+    },
+    {
+      "label": "head.tsx",
+      "file_type": "code",
+      "source_file": "app\\head.tsx",
+      "source_location": "L1",
+      "id": "app_head_tsx"
+    },
+    {
+      "label": "layout.tsx",
+      "file_type": "code",
+      "source_file": "app\\layout.tsx",
+      "source_location": "L1",
+      "id": "app_layout_tsx"
+    },
+    {
+      "label": "RootLayout()",
+      "file_type": "code",
+      "source_file": "app\\layout.tsx",
+      "source_location": "L42",
+      "id": "layout_rootlayout"
+    },
+    {
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "app\\page.tsx",
+      "source_location": "L1",
+      "id": "app_page_tsx"
+    },
+    {
+      "label": "ServiceIcon()",
+      "file_type": "code",
+      "source_file": "app\\page.tsx",
+      "source_location": "L20",
+      "id": "page_serviceicon"
+    },
+    {
+      "label": "sitemap.ts",
+      "file_type": "code",
+      "source_file": "app\\sitemap.ts",
+      "source_location": "L1",
+      "id": "app_sitemap_ts"
+    },
+    {
+      "label": "sitemap()",
+      "file_type": "code",
+      "source_file": "app\\sitemap.ts",
+      "source_location": "L5",
+      "id": "sitemap_sitemap"
+    },
+    {
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "app\\about\\page.tsx",
+      "source_location": "L1",
+      "id": "app_about_page_tsx"
+    },
+    {
+      "label": "route.ts",
+      "file_type": "code",
+      "source_file": "app\\api\\send-email\\route.ts",
+      "source_location": "L1",
+      "id": "app_api_send_email_route_ts"
+    },
+    {
+      "label": "POST()",
+      "file_type": "code",
+      "source_file": "app\\api\\send-email\\route.ts",
+      "source_location": "L15",
+      "id": "route_post"
+    },
+    {
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "app\\contact\\page.tsx",
+      "source_location": "L1",
+      "id": "app_contact_page_tsx"
+    },
+    {
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "app\\events\\page.tsx",
+      "source_location": "L1",
+      "id": "app_events_page_tsx"
+    },
+    {
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "app\\gallery\\page.tsx",
+      "source_location": "L1",
+      "id": "app_gallery_page_tsx"
+    },
+    {
+      "label": "GalleryPage()",
+      "file_type": "code",
+      "source_file": "app\\gallery\\page.tsx",
+      "source_location": "L13",
+      "id": "page_gallerypage"
+    },
+    {
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "app\\services\\page.tsx",
+      "source_location": "L1",
+      "id": "app_services_page_tsx"
+    },
+    {
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "app\\testimonials\\page.tsx",
+      "source_location": "L1",
+      "id": "app_testimonials_page_tsx"
+    },
+    {
+      "label": "AnimatedSection.tsx",
+      "file_type": "code",
+      "source_file": "components\\AnimatedSection.tsx",
+      "source_location": "L1",
+      "id": "components_animatedsection_tsx"
+    },
+    {
+      "label": "AnimatedSection()",
+      "file_type": "code",
+      "source_file": "components\\AnimatedSection.tsx",
+      "source_location": "L13",
+      "id": "animatedsection_animatedsection"
+    },
+    {
+      "label": "EventCard.tsx",
+      "file_type": "code",
+      "source_file": "components\\EventCard.tsx",
+      "source_location": "L1",
+      "id": "components_eventcard_tsx"
+    },
+    {
+      "label": "EventCard()",
+      "file_type": "code",
+      "source_file": "components\\EventCard.tsx",
+      "source_location": "L14",
+      "id": "eventcard_eventcard"
+    },
+    {
+      "label": "Footer.tsx",
+      "file_type": "code",
+      "source_file": "components\\Footer.tsx",
+      "source_location": "L1",
+      "id": "components_footer_tsx"
+    },
+    {
+      "label": "GalleryGrid.tsx",
+      "file_type": "code",
+      "source_file": "components\\GalleryGrid.tsx",
+      "source_location": "L1",
+      "id": "components_gallerygrid_tsx"
+    },
+    {
+      "label": "GalleryGrid()",
+      "file_type": "code",
+      "source_file": "components\\GalleryGrid.tsx",
+      "source_location": "L19",
+      "id": "gallerygrid_gallerygrid"
+    },
+    {
+      "label": "Hero.tsx",
+      "file_type": "code",
+      "source_file": "components\\Hero.tsx",
+      "source_location": "L1",
+      "id": "components_hero_tsx"
+    },
+    {
+      "label": "ImageSlider.tsx",
+      "file_type": "code",
+      "source_file": "components\\ImageSlider.tsx",
+      "source_location": "L1",
+      "id": "components_imageslider_tsx"
+    },
+    {
+      "label": "goToPrevious()",
+      "file_type": "code",
+      "source_file": "components\\ImageSlider.tsx",
+      "source_location": "L32",
+      "id": "imageslider_gotoprevious"
+    },
+    {
+      "label": "goToNext()",
+      "file_type": "code",
+      "source_file": "components\\ImageSlider.tsx",
+      "source_location": "L37",
+      "id": "imageslider_gotonext"
+    },
+    {
+      "label": "goToSlide()",
+      "file_type": "code",
+      "source_file": "components\\ImageSlider.tsx",
+      "source_location": "L42",
+      "id": "imageslider_gotoslide"
+    },
+    {
+      "label": "Lightbox.tsx",
+      "file_type": "code",
+      "source_file": "components\\Lightbox.tsx",
+      "source_location": "L1",
+      "id": "components_lightbox_tsx"
+    },
+    {
+      "label": "handleEsc()",
+      "file_type": "code",
+      "source_file": "components\\Lightbox.tsx",
+      "source_location": "L16",
+      "id": "lightbox_handleesc"
+    },
+    {
+      "label": "Navbar.tsx",
+      "file_type": "code",
+      "source_file": "components\\Navbar.tsx",
+      "source_location": "L1",
+      "id": "components_navbar_tsx"
+    },
+    {
+      "label": "Navbar()",
+      "file_type": "code",
+      "source_file": "components\\Navbar.tsx",
+      "source_location": "L19",
+      "id": "navbar_navbar"
+    },
+    {
+      "label": "PageBanner.tsx",
+      "file_type": "code",
+      "source_file": "components\\PageBanner.tsx",
+      "source_location": "L1",
+      "id": "components_pagebanner_tsx"
+    },
+    {
+      "label": "SectionHeading.tsx",
+      "file_type": "code",
+      "source_file": "components\\SectionHeading.tsx",
+      "source_location": "L1",
+      "id": "components_sectionheading_tsx"
+    },
+    {
+      "label": "SectionHeading()",
+      "file_type": "code",
+      "source_file": "components\\SectionHeading.tsx",
+      "source_location": "L5",
+      "id": "sectionheading_sectionheading"
+    },
+    {
+      "label": "ServiceCard.tsx",
+      "file_type": "code",
+      "source_file": "components\\ServiceCard.tsx",
+      "source_location": "L1",
+      "id": "components_servicecard_tsx"
+    },
+    {
+      "label": "ServiceCard()",
+      "file_type": "code",
+      "source_file": "components\\ServiceCard.tsx",
+      "source_location": "L12",
+      "id": "servicecard_servicecard"
+    },
+    {
+      "label": "TeamCard.tsx",
+      "file_type": "code",
+      "source_file": "components\\TeamCard.tsx",
+      "source_location": "L1",
+      "id": "components_teamcard_tsx"
+    },
+    {
+      "label": "TeamCard()",
+      "file_type": "code",
+      "source_file": "components\\TeamCard.tsx",
+      "source_location": "L13",
+      "id": "teamcard_teamcard"
+    },
+    {
+      "label": "TestimonialCard.tsx",
+      "file_type": "code",
+      "source_file": "components\\TestimonialCard.tsx",
+      "source_location": "L1",
+      "id": "components_testimonialcard_tsx"
+    },
+    {
+      "label": "TestimonialCard()",
+      "file_type": "code",
+      "source_file": "components\\TestimonialCard.tsx",
+      "source_location": "L13",
+      "id": "testimonialcard_testimonialcard"
+    },
+    {
+      "label": "data.ts",
+      "file_type": "code",
+      "source_file": "lib\\data.ts",
+      "source_location": "L1",
+      "id": "lib_data_ts"
+    },
+    {
+      "label": "Mangalya Event Management",
+      "file_type": "document",
+      "id": "project_mangalya_events"
+    },
+    {
+      "label": "Next.js 14 (App Router)",
+      "file_type": "code",
+      "id": "framework_nextjs14"
+    },
+    {
+      "label": "TypeScript",
+      "file_type": "code",
+      "id": "language_typescript"
+    },
+    {
+      "label": "Tailwind CSS 3.4.16",
+      "file_type": "code",
+      "id": "styling_tailwindcss"
+    },
+    {
+      "label": "Framer Motion 11.15.0",
+      "file_type": "code",
+      "id": "animation_framermotion"
+    },
+    {
+      "label": "Resend Email Service 6.12.0",
+      "file_type": "code",
+      "id": "email_resend"
+    },
+    {
+      "label": "Vercel Deployment Platform",
+      "file_type": "document",
+      "id": "deployment_vercel"
+    },
+    {
+      "label": "GitHub Repository Integration",
+      "file_type": "document",
+      "id": "vcs_github"
+    },
+    {
+      "label": "Home Page",
+      "file_type": "code",
+      "id": "page_home"
+    },
+    {
+      "label": "About Page",
+      "file_type": "code",
+      "id": "page_about"
+    },
+    {
+      "label": "Services Page",
+      "file_type": "code",
+      "id": "page_services"
+    },
+    {
+      "label": "Gallery Page",
+      "file_type": "code",
+      "id": "page_gallery"
+    },
+    {
+      "label": "Events Page",
+      "file_type": "code",
+      "id": "page_events"
+    },
+    {
+      "label": "Contact Page",
+      "file_type": "code",
+      "id": "page_contact"
+    },
+    {
+      "label": "Navbar Component",
+      "file_type": "code",
+      "id": "component_navbar"
+    },
+    {
+      "label": "Color Palette (Gold, Maroon, Beige)",
+      "file_type": "document",
+      "id": "design_colorpalette"
+    },
+    {
+      "label": "Rebranding: Mangalam to Mangalya",
+      "file_type": "document",
+      "id": "branding_rebranding"
+    }
+  ],
+  "edges": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\layout.tsx",
+      "source_location": "L42",
+      "weight": 1.0,
+      "_src": "app_layout_tsx",
+      "_tgt": "layout_rootlayout",
+      "source": "app_layout_tsx",
+      "target": "layout_rootlayout"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\page.tsx",
+      "source_location": "L20",
+      "weight": 1.0,
+      "_src": "app_page_tsx",
+      "_tgt": "page_serviceicon",
+      "source": "app_page_tsx",
+      "target": "page_serviceicon"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\services\\page.tsx",
+      "source_location": "L102",
+      "weight": 1.0,
+      "_src": "app_services_page_tsx",
+      "_tgt": "page_serviceicon",
+      "source": "page_serviceicon",
+      "target": "app_services_page_tsx"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\sitemap.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_src": "app_sitemap_ts",
+      "_tgt": "sitemap_sitemap",
+      "source": "app_sitemap_ts",
+      "target": "sitemap_sitemap"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\api\\send-email\\route.ts",
+      "source_location": "L15",
+      "weight": 1.0,
+      "_src": "app_api_send_email_route_ts",
+      "_tgt": "route_post",
+      "source": "app_api_send_email_route_ts",
+      "target": "route_post"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\gallery\\page.tsx",
+      "source_location": "L13",
+      "weight": 1.0,
+      "_src": "app_gallery_page_tsx",
+      "_tgt": "page_gallerypage",
+      "source": "app_gallery_page_tsx",
+      "target": "page_gallerypage"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components\\AnimatedSection.tsx",
+      "source_location": "L13",
+      "weight": 1.0,
+      "_src": "components_animatedsection_tsx",
+      "_tgt": "animatedsection_animatedsection",
+      "source": "components_animatedsection_tsx",
+      "target": "animatedsection_animatedsection"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components\\EventCard.tsx",
+      "source_location": "L14",
+      "weight": 1.0,
+      "_src": "components_eventcard_tsx",
+      "_tgt": "eventcard_eventcard",
+      "source": "components_eventcard_tsx",
+      "target": "eventcard_eventcard"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components\\GalleryGrid.tsx",
+      "source_location": "L19",
+      "weight": 1.0,
+      "_src": "components_gallerygrid_tsx",
+      "_tgt": "gallerygrid_gallerygrid",
+      "source": "components_gallerygrid_tsx",
+      "target": "gallerygrid_gallerygrid"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components\\ImageSlider.tsx",
+      "source_location": "L32",
+      "weight": 1.0,
+      "_src": "components_imageslider_tsx",
+      "_tgt": "imageslider_gotoprevious",
+      "source": "components_imageslider_tsx",
+      "target": "imageslider_gotoprevious"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components\\ImageSlider.tsx",
+      "source_location": "L37",
+      "weight": 1.0,
+      "_src": "components_imageslider_tsx",
+      "_tgt": "imageslider_gotonext",
+      "source": "components_imageslider_tsx",
+      "target": "imageslider_gotonext"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components\\ImageSlider.tsx",
+      "source_location": "L42",
+      "weight": 1.0,
+      "_src": "components_imageslider_tsx",
+      "_tgt": "imageslider_gotoslide",
+      "source": "components_imageslider_tsx",
+      "target": "imageslider_gotoslide"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components\\Lightbox.tsx",
+      "source_location": "L16",
+      "weight": 1.0,
+      "_src": "components_lightbox_tsx",
+      "_tgt": "lightbox_handleesc",
+      "source": "components_lightbox_tsx",
+      "target": "lightbox_handleesc"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components\\Navbar.tsx",
+      "source_location": "L19",
+      "weight": 1.0,
+      "_src": "components_navbar_tsx",
+      "_tgt": "navbar_navbar",
+      "source": "components_navbar_tsx",
+      "target": "navbar_navbar"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components\\SectionHeading.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_src": "components_sectionheading_tsx",
+      "_tgt": "sectionheading_sectionheading",
+      "source": "components_sectionheading_tsx",
+      "target": "sectionheading_sectionheading"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components\\ServiceCard.tsx",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_src": "components_servicecard_tsx",
+      "_tgt": "servicecard_servicecard",
+      "source": "components_servicecard_tsx",
+      "target": "servicecard_servicecard"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components\\TeamCard.tsx",
+      "source_location": "L13",
+      "weight": 1.0,
+      "_src": "components_teamcard_tsx",
+      "_tgt": "teamcard_teamcard",
+      "source": "components_teamcard_tsx",
+      "target": "teamcard_teamcard"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components\\TestimonialCard.tsx",
+      "source_location": "L13",
+      "weight": 1.0,
+      "_src": "components_testimonialcard_tsx",
+      "_tgt": "testimonialcard_testimonialcard",
+      "source": "components_testimonialcard_tsx",
+      "target": "testimonialcard_testimonialcard"
+    },
+    {
+      "relation": "uses framework",
+      "confidence": "EXTRACTED",
+      "_src": "project_mangalya_events",
+      "_tgt": "framework_nextjs14",
+      "source": "project_mangalya_events",
+      "target": "framework_nextjs14"
+    },
+    {
+      "relation": "styled with",
+      "confidence": "EXTRACTED",
+      "_src": "project_mangalya_events",
+      "_tgt": "styling_tailwindcss",
+      "source": "project_mangalya_events",
+      "target": "styling_tailwindcss"
+    },
+    {
+      "relation": "uses animation",
+      "confidence": "EXTRACTED",
+      "_src": "project_mangalya_events",
+      "_tgt": "animation_framermotion",
+      "source": "project_mangalya_events",
+      "target": "animation_framermotion"
+    },
+    {
+      "relation": "deploys to",
+      "confidence": "EXTRACTED",
+      "_src": "project_mangalya_events",
+      "_tgt": "deployment_vercel",
+      "source": "project_mangalya_events",
+      "target": "deployment_vercel"
+    },
+    {
+      "relation": "uses component",
+      "confidence": "EXTRACTED",
+      "_src": "page_home",
+      "_tgt": "component_navbar",
+      "source": "page_home",
+      "target": "component_navbar"
+    }
+  ]
+}

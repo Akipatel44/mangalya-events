@@ -1,0 +1,20 @@
+DEPLOYMENT_FLOWCHARTS.md
+DOCS_INDEX.md
+PROJECT_COMPLETE.md
+QUICK_START_DEPLOY.md
+README.md
+REBRANDING_SUMMARY.md
+VERCEL_DEPLOYMENT_GUIDE.md
+app\apple-touch-icon.png
+app\icon.png
+public\images\1Mangalya 02-01.png
+public\images\Dharmik Event.jpeg
+public\images\engagement_ceremony.jpeg
+public\images\entry_decoration.jpeg
+public\images\kankotri lekhan.jpeg
+public\images\Little Baby Birthday Celebration.jpeg
+public\images\mangalya.png
+public\images\Panam Group Business Event.jpeg
+public\images\Puja Havan Decoration With Original Natural Leaves.jpeg
+public\images\religious_event_shreenathji_theme.jpeg
+public\images\RK Group Business Event.jpeg

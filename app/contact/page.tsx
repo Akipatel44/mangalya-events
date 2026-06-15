@@ -86,17 +86,20 @@ export default function ContactPage() {
                   Follow Us
                 </p>
                 <div className="flex gap-3">
-                  {["Facebook", "Instagram", "YouTube"].map(
-                    (social) => (
-                      <a
-                        key={social}
-                        href="#"
-                        className="rounded-full bg-gold/10 px-4 py-2 text-xs font-medium text-gold transition-all hover:bg-gold hover:text-white"
-                      >
-                        {social}
-                      </a>
-                    )
-                  )}
+                  {[
+                    { label: "Facebook", href: "#" },
+                    { label: "Instagram", href: "https://www.instagram.com/mangalya.co?igsh=bXRhb2Jncmw4YWRq" },
+                  ].map((social) => (
+                    <a
+                      key={social.label}
+                      href={social.href}
+                      target={social.href !== "#" ? "_blank" : undefined}
+                      rel={social.href !== "#" ? "noopener noreferrer" : undefined}
+                      className="rounded-full bg-gold/10 px-4 py-2 text-xs font-medium text-gold transition-all hover:bg-gold hover:text-white"
+                    >
+                      {social.label}
+                    </a>
+                  ))}
                 </div>
               </div>
             </AnimatedSection>

@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import PageBanner from "@/components/PageBanner";
 import SectionHeading from "@/components/SectionHeading";
 import GalleryGrid from "@/components/GalleryGrid";
-import { images, galleryImages } from "@/lib/data";
+import { images, galleryImages, galleryCategories } from "@/lib/data";
 
 export const metadata: Metadata = {
   title: "Gallery",
@@ -26,7 +26,7 @@ export default function GalleryPage() {
             title="Event Gallery"
             description="Explore our portfolio of beautifully organized events. Each photo tells a story of celebration, love, and meticulous attention to detail."
           />
-          <GalleryGrid images={galleryImages} showFilters />
+          <GalleryGrid images={galleryImages} categories={galleryCategories} showFilters />
         </div>
       </section>
     </>

@@ -1,25 +1,25 @@
-// Unsplash image URLs for event management
+// Local images from /public/images
 export const images = {
-  hero: "https://images.unsplash.com/photo-1519741497674-611481863552?w=1920&q=80",
-  about: "https://images.unsplash.com/photo-1511795409834-ef04bbd61622?w=1920&q=80",
-  services: "https://images.unsplash.com/photo-1478146059778-26028b07395a?w=1920&q=80",
-  gallery: "https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?w=1920&q=80",
-  events: "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=1920&q=80",
-  testimonials: "https://images.unsplash.com/photo-1529636798458-92182e662485?w=1920&q=80",
-  contact: "https://images.unsplash.com/photo-1505236858219-8359eb29e329?w=1920&q=80",
+  hero: "/images/grand_tree_wedding_decor.webp",
+  about: "/images/entry_decoration.jpeg",
+  services: "/images/Puja%20Havan%20Decoration%20With%20Original%20Natural%20Leaves.jpeg",
+  gallery: "/images/floral_tree_wedding_decor.jpeg",
+  events: "/images/Panam%20Group%20Business%20Event.jpeg",
+  testimonials: "/images/engagement_ceremony.jpeg",
+  contact: "/images/luxury_garden_wedding_stage_decoration.webp",
 
   // Gallery images
-  wedding1: "https://images.unsplash.com/photo-1519741497674-611481863552?w=800&q=80",
-  wedding2: "https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?w=800&q=80",
-  wedding3: "https://images.unsplash.com/photo-1519225421980-715cb0215aed?w=800&q=80",
-  wedding4: "https://images.unsplash.com/photo-1522413452208-996ff3f3e740?w=800&q=80",
-  corporate1: "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=800&q=80",
-  corporate2: "https://images.unsplash.com/photo-1505373877841-8d25f7d46678?w=800&q=80",
-  corporate3: "https://images.unsplash.com/photo-1515187029135-18ee286d815b?w=800&q=80",
-  birthday1: "https://images.unsplash.com/photo-1530103862676-de8c9debad1d?w=800&q=80",
-  birthday2: "https://images.unsplash.com/photo-1464349095431-e9a21285b5f3?w=800&q=80",
-  engagement1: "https://images.unsplash.com/photo-1583939003579-730e3918a45a?w=800&q=80",
-  engagement2: "https://images.unsplash.com/photo-1515934751635-c81c6bc9a2d8?w=800&q=80",
+  wedding1: "/images/grand_tree_wedding_decor.webp",
+  wedding2: "/images/luxury_garden_wedding_stage_decoration.webp",
+  wedding3: "/images/floral_tree_wedding_decor.jpeg",
+  wedding4: "/images/entry_decoration.jpeg",
+  corporate1: "/images/Panam%20Group%20Business%20Event.jpeg",
+  corporate2: "/images/RK%20Group%20Business%20Event.jpeg",
+  corporate3: "/images/RK%20Group%20Business%20Event.jpeg",
+  birthday1: "/images/Little%20Baby%20Birthday%20Celebration.jpeg",
+  birthday2: "/images/Little%20Baby%20Birthday%20Celebration.jpeg",
+  engagement1: "/images/engagement_ceremony.jpeg",
+  engagement2: "/images/kankotri%20lekhan.jpeg",
   engagementCeremony: "/images/engagement_ceremony.jpeg",
   kankotriLekhan: "/images/kankotri%20lekhan.jpeg",
   religiousEventShreenathji: "/images/religious_event_shreenathji_theme.jpeg",
@@ -29,21 +29,21 @@ export const images = {
   panamGroupBusiness: "/images/Panam%20Group%20Business%20Event.jpeg",
   pujaHavanDecoration: "/images/Puja%20Havan%20Decoration%20With%20Original%20Natural%20Leaves.jpeg",
   rkGroupBusiness: "/images/RK%20Group%20Business%20Event.jpeg",
-  decoration1: "https://images.unsplash.com/photo-1478146059778-26028b07395a?w=800&q=80",
-  decoration2: "https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?w=800&q=80",
-  stage1: "https://images.unsplash.com/photo-1492684223f8-e1f24f5d6b14?w=800&q=80",
+  decoration1: "/images/Puja%20Havan%20Decoration%20With%20Original%20Natural%20Leaves.jpeg",
+  decoration2: "/images/entry_decoration.jpeg",
+  stage1: "/images/luxury_garden_wedding_stage_decoration.webp",
 
   // Team
-  team1: "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=400&q=80",
-  team2: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&q=80",
-  team3: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&q=80",
-  team4: "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&q=80",
+  team1: "/images/mangalya.png",
+  team2: "/images/mangalya.png",
+  team3: "/images/mangalya.png",
+  team4: "/images/mangalya.png",
 
   // Slider images
-  slider1: "https://images.unsplash.com/photo-1519741497674-611481863552?w=1920&q=80", // Wedding
-  slider2: "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=1920&q=80", // Business event
-  slider3: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=1920&q=80", // Concert/Music event
-  slider4: "https://images.unsplash.com/photo-1511578314322-379afb476865?w=1920&q=80", // Gala/Celebration
+  slider1: "/images/grand_tree_wedding_decor.webp",
+  slider2: "/images/Panam%20Group%20Business%20Event.jpeg",
+  slider3: "/images/religious_event_shreenathji_theme.jpeg",
+  slider4: "/images/luxury_garden_wedding_stage_decoration.webp",
 };
 
 export const heroSliderImages = [
@@ -108,27 +108,36 @@ export const services = [
   },
 ];
 
+export const galleryCategories = [
+  "Weddings",
+  "Corporate",
+  "Birthdays",
+  "Engagements",
+  "Decorations",
+  "Religious",
+  "Cultural",
+];
+
 export const galleryImages = [
-  { src: images.wedding1, alt: "Royal Wedding Ceremony", category: "Weddings" },
-  { src: images.corporate1, alt: "Corporate Conference", category: "Corporate" },
-  { src: images.birthday1, alt: "Birthday Celebration", category: "Birthdays" },
-  { src: images.wedding2, alt: "Garden Wedding Setup", category: "Weddings" },
+  // Weddings
+  { src: images.wedding1, alt: "Grand Tree Wedding Decor", category: "Weddings" },
+  { src: images.wedding2, alt: "Luxury Garden Wedding Stage", category: "Weddings" },
+  { src: images.wedding3, alt: "Floral Tree Wedding Decor", category: "Weddings" },
+  // Corporate
+  { src: images.corporate1, alt: "Panam Group Business Event", category: "Corporate" },
+  { src: images.corporate2, alt: "RK Group Business Event", category: "Corporate" },
+  // Birthdays
+  { src: images.birthday1, alt: "Little Baby Birthday Celebration", category: "Birthdays" },
+  // Engagements
   { src: images.engagement1, alt: "Engagement Ceremony", category: "Engagements" },
-  { src: images.entryDecoration, alt: "Grand Entry Decoration", category: "Decorations" },
-  { src: images.corporate2, alt: "Business Summit", category: "Corporate" },
-  { src: images.wedding3, alt: "Wedding Reception", category: "Weddings" },
-  { src: images.birthday2, alt: "Themed Birthday Party", category: "Birthdays" },
-  { src: images.corporate3, alt: "Team Building Event", category: "Corporate" },
-  { src: images.engagement2, alt: "Ring Ceremony", category: "Engagements" },
-  { src: images.engagementCeremony, alt: "Engagement Ceremony Setup", category: "Engagements" },
-  { src: images.kankotriLekhan, alt: "Kankotri Lekhan Ceremony", category: "Cultural" },
-  { src: images.religiousEventShreenathji, alt: "Shreenathji Theme Religious Event", category: "Religious" },
-  { src: images.decoration2, alt: "Stage Decoration", category: "Weddings" },
-  { src: images.dharmikEvent, alt: "Dharmik Event Celebration", category: "Religious" },
-  { src: images.littleBirthdayBaby, alt: "Little Baby Birthday Celebration", category: "Birthdays" },
-  { src: images.panamGroupBusiness, alt: "Panam Group Business Event", category: "Corporate" },
+  { src: images.kankotriLekhan, alt: "Kankotri Lekhan Ceremony", category: "Engagements" },
+  // Decorations
+  { src: images.entryDecoration, alt: "Entry Decoration", category: "Decorations" },
   { src: images.pujaHavanDecoration, alt: "Puja Havan Decoration", category: "Decorations" },
-  { src: images.rkGroupBusiness, alt: "RK Group Business Event", category: "Corporate" },
+  // Religious
+  { src: images.religiousEventShreenathji, alt: "Shreenathji Theme Religious Event", category: "Religious" },
+  { src: images.dharmikEvent, alt: "Dharmik Event Celebration", category: "Religious" },
+  // Cultural — no images yet
 ];
 
 export const eventsList = [

@@ -3,6 +3,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { motion } from "framer-motion";
+import { images } from "@/lib/data";
 
 export default function Hero() {
   return (
@@ -10,7 +11,7 @@ export default function Hero() {
       {/* Background image */}
       <div className="absolute inset-0">
         <Image
-          src="https://images.unsplash.com/photo-1519741497674-611481863552?w=1920&q=80"
+          src={images.hero}
           alt="Luxury wedding decoration"
           fill
           className="object-cover"

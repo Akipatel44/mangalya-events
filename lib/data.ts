@@ -12,12 +12,12 @@ export const images = {
   wedding1: "/images/grand_tree_wedding_decor.webp",
   wedding2: "/images/luxury_garden_wedding_stage_decoration.webp",
   wedding3: "/images/floral_tree_wedding_decor.jpeg",
-  wedding4: "/images/entry_decoration.jpeg",
+  wedding4: "/images/luxury_garden_wedding_setup.jpeg",
   corporate1: "/images/Panam%20Group%20Business%20Event.jpeg",
   corporate2: "/images/RK%20Group%20Business%20Event.jpeg",
   corporate3: "/images/RK%20Group%20Business%20Event.jpeg",
   birthday1: "/images/Little%20Baby%20Birthday%20Celebration.jpeg",
-  birthday2: "/images/Little%20Baby%20Birthday%20Celebration.jpeg",
+  birthday2: "/images/jungle_safari_birthday_stage.jpeg",
   engagement1: "/images/engagement_ceremony.jpeg",
   engagement2: "/images/kankotri%20lekhan.jpeg",
   engagementCeremony: "/images/engagement_ceremony.jpeg",
@@ -32,6 +32,9 @@ export const images = {
   decoration1: "/images/Puja%20Havan%20Decoration%20With%20Original%20Natural%20Leaves.jpeg",
   decoration2: "/images/entry_decoration.jpeg",
   stage1: "/images/luxury_garden_wedding_stage_decoration.webp",
+  jungleSafariBirthdayStage: "/images/jungle_safari_birthday_stage.jpeg",
+  marigoldHaldiCeremony: "/images/marigold_haldi_ceremony_backdrop.jpeg",
+  luxuryGardenWeddingSetup: "/images/luxury_garden_wedding_setup.jpeg",
 
   // Team
   team1: "/images/mangalya.png",
@@ -63,9 +66,9 @@ export const heroSliderImages = [
     subtitle: "Entertainment at Its Best",
   },
   {
-    image: images.slider4,
-    title: "Gala Celebrations",
-    subtitle: "Elegance & Grandeur",
+    image: images.luxuryGardenWeddingSetup,
+    title: "Garden Weddings",
+    subtitle: "Nature's Finest Venue",
   },
 ];
 
@@ -123,11 +126,14 @@ export const galleryImages = [
   { src: images.wedding1, alt: "Grand Tree Wedding Decor", category: "Weddings" },
   { src: images.wedding2, alt: "Luxury Garden Wedding Stage", category: "Weddings" },
   { src: images.wedding3, alt: "Floral Tree Wedding Decor", category: "Weddings" },
+  { src: images.luxuryGardenWeddingSetup, alt: "Luxury Garden Wedding Setup", category: "Weddings" },
+  { src: images.marigoldHaldiCeremony, alt: "Marigold Haldi Ceremony Backdrop", category: "Weddings" },
   // Corporate
   { src: images.corporate1, alt: "Panam Group Business Event", category: "Corporate" },
   { src: images.corporate2, alt: "RK Group Business Event", category: "Corporate" },
   // Birthdays
   { src: images.birthday1, alt: "Little Baby Birthday Celebration", category: "Birthdays" },
+  { src: images.jungleSafariBirthdayStage, alt: "Jungle Safari Birthday Stage", category: "Birthdays" },
   // Engagements
   { src: images.engagement1, alt: "Engagement Ceremony", category: "Engagements" },
   { src: images.kankotriLekhan, alt: "Kankotri Lekhan Ceremony", category: "Engagements" },
@@ -156,10 +162,10 @@ export const eventsList = [
     date: "Nov 22, 2025",
   },
   {
-    image: images.birthday1,
-    title: "Golden 50th Birthday Bash",
+    image: images.jungleSafariBirthdayStage,
+    title: "Jungle Safari Birthday Extravaganza",
     description:
-      "An elegant black-tie celebration featuring live jazz, gourmet dining, and a spectacular fireworks display.",
+      "A thrilling jungle safari themed birthday celebration with immersive wild decor, adventure activities, and an unforgettable stage setup that transported guests into the heart of the wild.",
     date: "Oct 10, 2025",
   },
   {

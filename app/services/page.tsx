@@ -25,7 +25,7 @@ const detailedServices = [
       "personalised guest Management",
       "Designer Invitation suites",
     ],
-    image: images.wedding1,
+    image: images.luxuryGardenWeddingSetup,
   },
   {
     ...services[1],
@@ -67,7 +67,7 @@ const detailedServices = [
       "Photography & Video",
       "Guest Hospitality",
     ],
-    image: images.engagement1,
+    image: images.marigoldHaldiCeremony,
   },
   {
     ...services[4],

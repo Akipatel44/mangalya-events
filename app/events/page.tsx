@@ -22,10 +22,10 @@ const moreEvents = [
     date: "Aug 20, 2025",
   },
   {
-    image: images.corporate3,
-    title: "StartupFest Networking Gala",
+    image: images.marigoldHaldiCeremony,
+    title: "Marigold Haldi Ceremony",
     description:
-      "An evening of innovation and connection, featuring pitch sessions, panel discussions, and a gourmet dinner for 800 entrepreneurs.",
+      "A vibrant pre-wedding Haldi celebration adorned with fresh marigold blooms, traditional rituals, and joyful family moments that beautifully set the tone for the big day.",
     date: "Jul 15, 2025",
   },
   {

@@ -47,9 +47,9 @@ export default function Navbar() {
         >
           {/* Logo */}
           <Link href="/" className="flex-shrink-0">
-            <div className="rounded-xl bg-white px-3 py-1.5 shadow-sm">
+            <div className="rounded-xl bg-black px-3 py-1.5 shadow-sm">
               <Image
-                src="/images/Mangalyacolor.png"
+                src="/images/mangalya.png"
                 alt="Mangalya Events"
                 width={800}
                 height={213}

@@ -19,9 +19,15 @@ export const metadata: Metadata = {
     "birthday party planner Ahmedabad",
     "destination weddings Gujarat",
   ],
-  // ✅ Google Verification Added Here
+  metadataBase: new URL('https://mangalya-events.vercel.app'),
+
   verification: {
     google: "_Rsa-2EWYbP4oUmNqK1_BmcfDdHiNpSIp9PHxptiqzs",
+  },
+
+  robots: {
+    index: true,
+    follow: true,
   },
 
   openGraph: {

@@ -3,16 +3,12 @@ import ImageSlider from "@/components/ImageSlider";
 import SectionHeading from "@/components/SectionHeading";
 import ServiceCard from "@/components/ServiceCard";
 import GalleryGrid from "@/components/GalleryGrid";
-import EventCard from "@/components/EventCard";
-import TestimonialCard from "@/components/TestimonialCard";
 import AnimatedSection from "@/components/AnimatedSection";
 import Link from "next/link";
 import Image from "next/image";
 import {
   services,
   galleryImages,
-  eventsList,
-  testimonials,
   images,
   heroSliderImages,
 } from "@/lib/data";
@@ -158,30 +154,6 @@ export default function Homepage() {
               className="inline-block rounded-full border-2 border-gold px-8 py-3 text-sm font-semibold uppercase tracking-wider text-gold transition-all hover:bg-gold hover:text-white"
             >
               View Full Gallery
-            </Link>
-          </div>
-        </div>
-      </section>
-
-      {/* Testimonials Preview */}
-      <section className="section-padding bg-white">
-        <div className="container-custom mx-auto">
-          <SectionHeading
-            subtitle="Client Love"
-            title="What Our Clients Say"
-            description="Hear from the families and organizations who trusted us with their most important celebrations."
-          />
-          <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-            {testimonials.slice(0, 3).map((t, i) => (
-              <TestimonialCard key={t.name} {...t} index={i} />
-            ))}
-          </div>
-          <div className="mt-12 text-center">
-            <Link
-              href="/testimonials"
-              className="inline-block rounded-full border-2 border-gold px-8 py-3 text-sm font-semibold uppercase tracking-wider text-gold transition-all hover:bg-gold hover:text-white"
-            >
-              Read More Reviews
             </Link>
           </div>
         </div>

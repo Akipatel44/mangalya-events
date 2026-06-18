@@ -24,7 +24,7 @@ export default function GalleryPage() {
           <SectionHeading
             subtitle="Browse Our Work"
             title="Event Gallery"
-            description="Explore our portfolio of beautifully organized events. Each photo tells a story of celebration, love, and meticulous attention to detail."
+            description="Discover a collection of our finest events, thoughtfully planned and flawlessly executed. Each image reflects our passion for creating memorable celebrations, meaningful moments, and extraordinary experiences."
           />
           <GalleryGrid images={galleryImages} categories={galleryCategories} showFilters />
         </div>

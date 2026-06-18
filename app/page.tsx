@@ -115,7 +115,7 @@ export default function Homepage() {
           <SectionHeading
             subtitle="What We Offer"
             title="Our Services"
-            description="From intimate gatherings to grand celebrations, we bring your vision to life with meticulous attention to detail and creative excellence."
+            description="From intimate gatherings to grand celebrations, we bring your vision to life with creativity, precision, and meticulous attention to every detail."
           />
           <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {services.map((service, i) => (
@@ -145,7 +145,7 @@ export default function Homepage() {
           <SectionHeading
             subtitle="Our Portfolio"
             title="Event Gallery"
-            description="A Showcase of the beautiful Celebrations and Unforgettable events we have had the honor OF creating."
+            description="Explore our portfolio of beautifully crafted celebrations and extraordinary events, each thoughtfully designed and flawlessly executed to create lasting memories."
           />
           <GalleryGrid images={homeGalleryImages} />
           <div className="mt-12 text-center">

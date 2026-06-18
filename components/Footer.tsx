@@ -42,7 +42,7 @@ export default function Footer() {
               </div>
             </Link>
             <p className="max-w-xs text-sm leading-relaxed text-white/50">
-              We craft unforgettable celebrations with elegance, precision and passion — turning your dream event into reality.
+              We create unforgettable celebrations through exceptional planning, elegant design, and flawless execution, transforming your vision into a truly memorable experience.
             </p>
             {/* Social icons */}
             <div className="flex gap-2.5">
@@ -137,7 +137,7 @@ export default function Footer() {
                 <svg className="h-4 w-4 shrink-0 text-gold" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                 </svg>
-                <p className="text-xs text-white/50">info@mangalamevents.com</p>
+                <p className="text-xs text-white/50">mangalya.co@gmail.com</p>
               </div>
             </div>
           </div>

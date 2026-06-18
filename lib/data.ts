@@ -64,37 +64,43 @@ export const services = [
   {
     title: "Wedding Planning",
     description:
-      "From Intimate gatherings to magnificent celebration we curate every detail of your dream wedding with Sophistication. elegance and Flawleess execution.",
+      "From intimate gatherings to magnificent celebrations, we curate every detail of your dream wedding with sophistication, elegance, and flawless execution, creating unforgettable experiences that reflect your unique vision and style.",
     icon: "rings",
   },
   {
     title: "Corporate Events",
     description:
-      "Expertly managing Conferencs, Seminars, Product launches, and Corporate galas with precision and professionalism To Create Memorable Experiences.",
+      "Expertly managing conferences, seminars, product launches, and corporate galas with precision, professionalism, and meticulous attention to detail, delivering seamless events and memorable experiences that leave a lasting impact.",
     icon: "briefcase",
   },
   {
     title: "Product Launch Events",
     description:
-      "Create excitement For your product launches through Innovative presentations, dynamic demonstrations and Impactful Brand Experinces.",
+      "Create excitement around your product launch through innovative presentations, engaging demonstrations, and impactful brand experiences that captivate audiences and leave a lasting impression.",
     icon: "cake",
   },
   {
     title: "Engagement Ceremonies",
     description:
-      "Creating elegant engagement Celebration that beautifully Mark the begining of your Journey together.",
+      "Crafting sophisticated engagement celebrations that beautifully commemorate the beginning of your journey together, creating cherished memories that last a lifetime.",
     icon: "heart",
   },
   {
     title: "Education Events",
     description:
-      "Expertly organized Seminars workshops, conferences. And Training Sessions That promote learning, knowledge, sharing and Professional development.",
+      "Delivering professionally managed seminars, workshops, conferences, and training programs designed to promote learning, encourage knowledge sharing, and support continuous professional growth.",
     icon: "plane",
   },
   {
     title: "Festival Events",
     description:
-      "Professionally managed. Large-Scale Festivals Featuring Vibrant decor, engaging entertain ment  efficient crowd management and Unforgettable experiences for every attendee.",
+      "Professionally managed large-scale festivals featuring vibrant décor, engaging entertainment, efficient crowd management, and unforgettable experiences for every attendee.",
+    icon: "sparkles",
+  },
+  {
+    title: "Concert",
+    description:
+      "Our concert events combine world-class production, innovative stage design, and meticulous planning to create unforgettable live entertainment experiences. Every element is crafted to ensure a smooth, impactful, and memorable show.",
     icon: "sparkles",
   },
 ];
@@ -105,7 +111,6 @@ export const galleryCategories = [
   "Birthdays",
   "Engagements",
   "Decorations",
-  "Religious",
   "Cultural",
 ];
 

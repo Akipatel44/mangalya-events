@@ -16,35 +16,35 @@ const detailedServices = [
   {
     ...services[0],
     longDescription:
-      "We offer end-to-end wedding Planning Services designed to Create a Flawless and Unforgettable experience. from Selecting the Perfect Venue To Curating exquisite Decor, Fine catering, entertainment and guest Coordination every detail is Throught fullly managed. Our dedicated team Collaborates with you to Transform your vision into a beautifully executed Celebration.",
+      "Our bespoke wedding planning services are designed to create extraordinary celebrations that are seamless, elegant, and unforgettable. From venue selection and stunning decor to exceptional catering, entertainment, and guest management, every aspect of your wedding is meticulously curated and flawlessly executed. With a passion for perfection and a commitment to excellence, our experienced team collaborates closely with you to transform your vision into a breathtaking celebration that will be cherished for a lifetime.",
     features: [
-      "Venue Selection & Premium setup",
-      "Gourmet catering & curated menus",
-      "Luxury photography & Videography",
-      "live Entertainment & music",
-      "personalised guest Management",
-      "Designer Invitation suites",
+      "Exclusive Venue Selection & Elegant Event Setup",
+      "Gourmet Catering with Curated Culinary Experiences",
+      "Luxury Photography & Cinematic Videography",
+      "Live Entertainment, Music & Performances",
+      "Personalized Guest Management & Hospitality",
+      "Bespoke Designer Invitation Suites",
     ],
     image: images.luxuryGardenWeddingSetup,
   },
   {
     ...services[1],
     longDescription:
-      "Our Corporate event are designed to reflect professionalism, Irmovation and brand experience, from confernce and Product launches to awards Ceremonies and tecum, building experiences i que curate and execute events that leave a lasting Imppression while staying True To your brand Identitur",
+      "We create impactful corporate events that embody professionalism, innovation, and brand excellence. Whether it's a conference, product launch, award ceremony, or team-building experience, our team delivers seamless execution and strategic event solutions that enhance your brand presence and create meaningful, lasting impressions.",
     features: [
-      "End-To-End Conference management",
-      "Strategic Product launches",
-      "Elegant Awards ceremonies",
-      "Engiging team-building Experiences",
-      "Exhibition & Stall Design",
-      "Advance Av & Technical solution",
+      "Comprehensive Conference Planning & Management",
+      "Strategic Product Launches & Brand Activations",
+      "Prestigious Award Ceremonies",
+      "Interactive Team-Building Experiences",
+      "Creative Exhibition & Stall Design",
+      "Advanced Audiovisual & Technical Solutions",
     ],
     image: images.corporate1,
   },
   {
     ...services[2],
     longDescription:
-      "Launch your products with maximum impact! We create buzz and excitement through innovative presentations, live demonstrations, interactive booths, and memorable brand experiences that captivate your target audience and generate lasting impressions.",
+      "Elevate your product launch with innovative presentations, engaging live demonstrations, interactive brand experiences, and strategic event execution designed to capture attention, generate excitement, and maximize brand impact.",
     features: [
       "Venue Selection & Setup",
       "Product Display Design",
@@ -58,7 +58,7 @@ const detailedServices = [
   {
     ...services[3],
     longDescription:
-      "An engagement is the beautiful beginning of a new chapter. We create intimate yet grand ceremonies that celebrate your love story with elegance, traditional charm, and modern sophistication. Every detail is curated to make your ring ceremony truly special.",
+      "Celebrate the start of your forever with an engagement ceremony designed to reflect your unique love story. Combining timeless traditions, refined elegance, and modern sophistication, we thoughtfully curate every detail to create a memorable and meaningful celebration that you and your guests will cherish for years to come.",
     features: [
       "Ceremony Design",
       "Floral Arrangements",
@@ -72,7 +72,7 @@ const detailedServices = [
   {
     ...services[4],
     longDescription:
-      "Our educational events are Thoughtfully designed To Inspire learning, encourage engagement and promote Professional growth. From seminars, and workshops To large-Scale Conferences and Training Programs We ensure Seamless execution and enriching enxperiences That drive knowledge sharing.",
+      "We create impactful educational events that inspire learning, encourage active participation, and support professional development. Whether it's a seminar, workshop, conference, or training program, our team delivers seamlessly organized experiences that promote knowledge exchange, innovation, and continuous growth.",
     features: [
       "Premium venue Selection",
       "Professional speaker Management",
@@ -86,7 +86,7 @@ const detailedServices = [
   {
     ...services[5],
     longDescription:
-      "Bring communities together with spectacular festivals! Our comprehensive festival management covers everything from large-scale setup and vibrant decorations to entertainment coordination, crowd management, and safety measures. We create unforgettable celebration experiences.",
+      "We specialize in creating extraordinary festivals that unite communities and celebrate culture. From stunning event setups and captivating entertainment to efficient crowd management and comprehensive safety measures, our expert team ensures every festival is flawlessly executed, delivering memorable experiences for all.",
     features: [
       "Festival Planning & Design",
       "Entertainment Coordination",
@@ -133,7 +133,7 @@ export default function ServicesPage() {
           <SectionHeading
             subtitle="Comprehensive Solutions"
             title="Event Services"
-            description="we provide end-to-end event Management services Thought Fully delivered with creativity, Precision and attention to detail."
+            description="We provide end-to-end event management services, thoughtfully delivered with creativity, precision, and meticulous attention to detail."
           />
 
           <div className="space-y-20">
@@ -204,7 +204,7 @@ export default function ServicesPage() {
               Have a Specific Requirement?
             </h2>
             <p className="mx-auto mb-8 max-w-2xl text-white/70">
-              Every Celebration is Unique get In Touch with us to discuss your needs. and we will create a customized Plan That perfectly reflects your Vision.
+              Every event is unique, and so is our approach. Connect with us to discuss your vision, and we'll design a personalized plan tailored to your needs, ensuring a seamless and unforgettable celebration.
             </p>
             <Link
               href="/contact"

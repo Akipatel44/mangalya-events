@@ -27,9 +27,7 @@ export default function ContactPage() {
                 Get In Touch With Us
               </h2>
               <p className="mb-8 text-sm leading-relaxed text-gray-600">
-                Have a vision for your next celebration? We&apos;d love to hear
-                about it. Reach out to us and let&apos;s start creating
-                something extraordinary together.
+                Ready to bring your dream event to life? Share your vision with us, and our team will craft a memorable celebration tailored to your unique style and aspirations.
               </p>
 
               <div className="mb-8 space-y-5">
@@ -53,7 +51,7 @@ export default function ContactPage() {
                       <svg className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
                     ),
                     title: "Email",
-                    detail: "info@mangalamevents.com",
+                    detail: "mangalya.co@gmail.com",
                   },
                   {
                     icon: (

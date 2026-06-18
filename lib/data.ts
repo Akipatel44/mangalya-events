@@ -123,7 +123,7 @@ export const galleryImages = [
   { src: images.birthday1, alt: "Little Baby Birthday Celebration", category: "Birthdays" },
   { src: images.jungleSafariBirthdayStage, alt: "Jungle Safari Birthday Stage", category: "Birthdays" },
   // Engagements
-  { src: images.engagement1, alt: "Engagement Ceremony", category: "Engagements" },
+  { src: images.engagement1, alt: "Engagement Ceremony ", category: "Engagements" },
   { src: images.kankotriLekhan, alt: "Kankotri Lekhan Ceremony", category: "Engagements" },
   // Decorations
   { src: images.entryDecoration, alt: "Entry Decoration", category: "Decorations" },

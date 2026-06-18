@@ -31,15 +31,13 @@ export default function Footer() {
           {/* Col 1 — Brand */}
           <div className="flex flex-col gap-6">
             <Link href="/" className="inline-block">
-              <div className="inline-flex rounded-2xl bg-black px-5 py-3 shadow-[0_4px_24px_rgba(0,0,0,0.35)] transition-shadow hover:shadow-[0_6px_32px_rgba(201,169,112,0.2)]">
-                <Image
-                  src="/images/mangalya.png"
-                  alt="Mangalya Events"
-                  width={800}
-                  height={213}
-                  className="h-auto w-36 object-contain sm:w-40"
-                />
-              </div>
+              <Image
+                src="/images/mangalya.png"
+                alt="Mangalya Events"
+                width={800}
+                height={213}
+                className="h-auto w-36 object-contain sm:w-40"
+              />
             </Link>
             <p className="max-w-xs text-sm leading-relaxed text-white/50">
               We craft unforgettable celebrations with elegance, precision and passion — turning your dream event into reality.

@@ -83,14 +83,24 @@ export default function Homepage() {
       category: "Corporate",
     },
     {
-      src: images.pujaHavanDecoration,
-      alt: "Puja Havan Decoration",
-      category: "Decorations",
+      src: images.concertEvents,
+      alt: "Live Concert Events",
+      category: "Concerts",
     },
     {
       src: images.rkGroupBusiness,
       alt: "RK Group Business Event",
       category: "Corporate",
+    },
+    {
+      src: images.concertDholBeats,
+      alt: "Dhol Beats Concert Performance",
+      category: "Concerts",
+    },
+    {
+      src: images.concertImage2,
+      alt: "Concert Performance Stage",
+      category: "Concerts",
     },
     {
       src: images.wedding1,

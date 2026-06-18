@@ -45,6 +45,12 @@ export const images = {
   // Slider images
   slider1: "/images/grand_tree_wedding_decor.webp",
   slider2: "/images/Panam%20Group%20Business%20Event.jpeg",
+  slider3: "/images/concert_events.jpeg",
+
+  // Concert images
+  concertEvents: "/images/concert_events.jpeg",
+  concertDholBeats: "/images/Concert_Dhol_Beats.jpeg",
+  concertImage2: "/images/concert_image_2.jpeg",
 };
 
 export const heroSliderImages = [
@@ -57,6 +63,11 @@ export const heroSliderImages = [
     image: images.slider2,
     title: "Corporate Events",
     subtitle: "Professional Excellence",
+  },
+  {
+    image: images.slider3,
+    title: "Live Concerts",
+    subtitle: "Unforgettable Musical Experiences",
   },
 ];
 
@@ -112,6 +123,7 @@ export const galleryCategories = [
   "Engagements",
   "Decorations",
   "Cultural",
+  "Concerts",
 ];
 
 export const galleryImages = [
@@ -136,6 +148,10 @@ export const galleryImages = [
   // Religious
   { src: images.religiousEventShreenathji, alt: "Shreenathji Theme Religious Event", category: "Religious" },
   { src: images.dharmikEvent, alt: "Dharmik Event Celebration", category: "Religious" },
+  // Concerts
+  { src: images.concertEvents, alt: "Live Concert Events", category: "Concerts" },
+  { src: images.concertDholBeats, alt: "Dhol Beats Concert Performance", category: "Concerts" },
+  { src: images.concertImage2, alt: "Concert Performance Stage", category: "Concerts" },
   // Cultural — no images yet
 ];
 

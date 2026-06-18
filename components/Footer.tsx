@@ -25,15 +25,15 @@ export default function Footer() {
         <div className="grid gap-12 md:grid-cols-2 lg:grid-cols-4">
           {/* Company info */}
           <div>
-            <div className="mb-4 inline-flex rounded-xl border border-gold/30 bg-maroon/80 p-2.5 shadow-lg">
+            <Link href="/" className="mb-5 inline-block">
               <Image
                 src="/images/mangalya.png"
                 alt="Mangalya Events"
                 width={674}
                 height={188}
-                className="h-auto w-36 object-contain brightness-125 contrast-125 drop-shadow-[0_1px_2px_rgba(0,0,0,0.8)] sm:w-40"
+                className="h-auto w-44 object-contain brightness-110 contrast-110 drop-shadow-[0_2px_12px_rgba(201,169,112,0.25)] sm:w-48"
               />
-            </div>
+            </Link>
             <p className="mb-6 text-sm leading-relaxed text-white/70">
               We Craft Unforgettable celebration with elegance, precision and Passion turning your Dream event Into reality.
             </p>

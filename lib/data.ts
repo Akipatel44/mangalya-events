@@ -2,9 +2,9 @@
 export const images = {
   hero: "/images/grand_tree_wedding_decor.webp",
   about: "/images/entry_decoration.jpeg",
-  services: "/images/Puja%20Havan%20Decoration%20With%20Original%20Natural%20Leaves.jpeg",
+  services: "/images/concert_events.jpeg",
   gallery: "/images/floral_tree_wedding_decor.jpeg",
-  events: "/images/Panam%20Group%20Business%20Event.jpeg",
+  events: "/images/concert_events.jpeg",
   testimonials: "/images/engagement_ceremony.jpeg",
   contact: "/images/luxury_garden_wedding_stage_decoration.webp",
 
@@ -27,9 +27,7 @@ export const images = {
   dharmikEvent: "/images/Dharmik%20Event.jpeg",
   littleBirthdayBaby: "/images/Little%20Baby%20Birthday%20Celebration.jpeg",
   panamGroupBusiness: "/images/Panam%20Group%20Business%20Event.jpeg",
-  pujaHavanDecoration: "/images/Puja%20Havan%20Decoration%20With%20Original%20Natural%20Leaves.jpeg",
   rkGroupBusiness: "/images/RK%20Group%20Business%20Event.jpeg",
-  decoration1: "/images/Puja%20Havan%20Decoration%20With%20Original%20Natural%20Leaves.jpeg",
   decoration2: "/images/entry_decoration.jpeg",
   stage1: "/images/luxury_garden_wedding_stage_decoration.webp",
   jungleSafariBirthdayStage: "/images/jungle_safari_birthday_stage.jpeg",
@@ -45,6 +43,12 @@ export const images = {
   // Slider images
   slider1: "/images/grand_tree_wedding_decor.webp",
   slider2: "/images/Panam%20Group%20Business%20Event.jpeg",
+  slider3: "/images/concert_events.jpeg",
+
+  // Concert images
+  concertEvents: "/images/concert_events.jpeg",
+  concertDholBeats: "/images/Concert_Dhol_Beats.jpeg",
+  concertImage2: "/images/concert_image_2.jpeg",
 };
 
 export const heroSliderImages = [
@@ -57,6 +61,11 @@ export const heroSliderImages = [
     image: images.slider2,
     title: "Corporate Events",
     subtitle: "Professional Excellence",
+  },
+  {
+    image: images.slider3,
+    title: "Live Concerts",
+    subtitle: "Unforgettable Musical Experiences",
   },
 ];
 
@@ -112,6 +121,7 @@ export const galleryCategories = [
   "Engagements",
   "Decorations",
   "Cultural",
+  "Concerts",
 ];
 
 export const galleryImages = [
@@ -132,10 +142,13 @@ export const galleryImages = [
   { src: images.kankotriLekhan, alt: "Kankotri Lekhan Ceremony", category: "Engagements" },
   // Decorations
   { src: images.entryDecoration, alt: "Entry Decoration ", category: "Decorations" },
-  { src: images.pujaHavanDecoration, alt: "Puja Havan Decoration ", category: "Decorations" },
   // Religious
   { src: images.religiousEventShreenathji, alt: "Shreenathji Theme Religious Event", category: "Religious" },
   { src: images.dharmikEvent, alt: "Dharmik Event Celebration", category: "Religious" },
+  // Concerts
+  { src: images.concertEvents, alt: "Live Concert Events", category: "Concerts" },
+  { src: images.concertDholBeats, alt: "Dhol Beats Concert Performance", category: "Concerts" },
+  { src: images.concertImage2, alt: "Concert Performance Stage", category: "Concerts" },
   // Cultural — no images yet
 ];
 

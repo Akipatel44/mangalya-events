@@ -31,9 +31,9 @@ export default function Footer() {
           {/* Col 1 — Brand */}
           <div className="flex flex-col gap-6">
             <Link href="/" className="inline-block">
-              <div className="inline-flex rounded-2xl bg-white px-5 py-3 shadow-[0_4px_24px_rgba(0,0,0,0.35)] transition-shadow hover:shadow-[0_6px_32px_rgba(201,169,112,0.2)]">
+              <div className="inline-flex">
                 <Image
-                  src="/images/Mangalyacolor.png"
+                  src="/images/mangalya.png"
                   alt="Mangalya Events"
                   width={800}
                   height={213}

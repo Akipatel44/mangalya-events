@@ -47,14 +47,20 @@ export default function Navbar() {
         >
           {/* Logo */}
           <Link href="/" className="flex-shrink-0">
-            <Image
-              src="/images/mangalya.png"
-              alt="Mangalya Events"
-              width={800}
-              height={213}
-              priority
-              className="h-auto w-24 object-contain sm:w-28 lg:w-32"
-            />
+            <div
+              className={`transition-all duration-500 ${
+                scrolled ? "rounded-xl bg-black px-3 py-1.5" : ""
+              }`}
+            >
+              <Image
+                src="/images/mangalya.png"
+                alt="Mangalya Events"
+                width={800}
+                height={213}
+                priority
+                className="h-auto w-24 object-contain sm:w-28 lg:w-32"
+              />
+            </div>
           </Link>
 
           {/* Separator */}

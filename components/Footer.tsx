@@ -26,13 +26,15 @@ export default function Footer() {
           {/* Company info */}
           <div>
             <Link href="/" className="mb-5 inline-block">
-              <Image
-                src="/images/mangalya.png"
-                alt="Mangalya Events"
-                width={674}
-                height={188}
-                className="h-auto w-44 object-contain brightness-110 contrast-110 drop-shadow-[0_2px_12px_rgba(201,169,112,0.25)] sm:w-48"
-              />
+              <div className="rounded-2xl bg-white/95 px-5 py-3 shadow-[0_4px_20px_rgba(0,0,0,0.2)]">
+                <Image
+                  src="/images/Mangalyacolor.png"
+                  alt="Mangalya Events"
+                  width={800}
+                  height={213}
+                  className="h-auto w-36 object-contain sm:w-40"
+                />
+              </div>
             </Link>
             <p className="mb-6 text-sm leading-relaxed text-white/70">
               We Craft Unforgettable celebration with elegance, precision and Passion turning your Dream event Into reality.

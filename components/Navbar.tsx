@@ -45,19 +45,17 @@ export default function Navbar() {
               : "border border-white/60 bg-white/88 shadow-[0_4px_24px_rgba(0,0,0,0.1)] backdrop-blur-md"
           }`}
         >
-          {/* Logo — kept on dark pill since logo image is light-colored */}
+          {/* Logo */}
           <Link href="/" className="flex-shrink-0">
-            <div className="rounded-xl border border-gold/30 bg-maroon px-2.5 py-1.5 shadow-sm">
-              <div className="relative w-24 sm:w-28 lg:w-32">
-                <Image
-                  src="/images/mangalya.png"
-                  alt="Mangalya Events"
-                  width={674}
-                  height={188}
-                  priority
-                  className="h-auto w-full object-contain brightness-125 contrast-125 saturate-125 drop-shadow-[0_1px_3px_rgba(0,0,0,0.8)]"
-                />
-              </div>
+            <div className="rounded-xl bg-white px-3 py-1.5 shadow-sm">
+              <Image
+                src="/images/Mangalyacolor.png"
+                alt="Mangalya Events"
+                width={800}
+                height={213}
+                priority
+                className="h-auto w-24 object-contain sm:w-28 lg:w-32"
+              />
             </div>
           </Link>
 

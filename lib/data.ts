@@ -45,8 +45,6 @@ export const images = {
   // Slider images
   slider1: "/images/grand_tree_wedding_decor.webp",
   slider2: "/images/Panam%20Group%20Business%20Event.jpeg",
-  slider3: "/images/religious_event_shreenathji_theme.jpeg",
-  slider4: "/images/luxury_garden_wedding_stage_decoration.webp",
 };
 
 export const heroSliderImages = [
@@ -59,16 +57,6 @@ export const heroSliderImages = [
     image: images.slider2,
     title: "Corporate Events",
     subtitle: "Professional Excellence",
-  },
-  {
-    image: images.slider3,
-    title: "Concert & Music Events",
-    subtitle: "Entertainment at Its Best",
-  },
-  {
-    image: images.luxuryGardenWeddingSetup,
-    title: "Garden Weddings",
-    subtitle: "Nature's Finest Venue",
   },
 ];
 

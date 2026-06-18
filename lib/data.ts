@@ -118,7 +118,7 @@ export const galleryImages = [
   { src: images.marigoldHaldiCeremony, alt: "Marigold Haldi Ceremony Backdrop", category: "Weddings" },
   // Corporate
   { src: images.corporate1, alt: "Panam Group Business Event", category: "Corporate" },
-  { src: images.corporate2, alt: "RK Group Business Event", category: "Corporate" },
+  { src: images.corporate2, alt: "RK Group Business Event ", category: "Corporate" },
   // Birthdays
   { src: images.birthday1, alt: "Little Baby Birthday Celebration", category: "Birthdays" },
   { src: images.jungleSafariBirthdayStage, alt: "Jungle Safari Birthday Stage", category: "Birthdays" },

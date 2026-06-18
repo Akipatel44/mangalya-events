@@ -126,7 +126,7 @@ export const galleryImages = [
   { src: images.engagement1, alt: "Engagement Ceremony ", category: "Engagements" },
   { src: images.kankotriLekhan, alt: "Kankotri Lekhan Ceremony", category: "Engagements" },
   // Decorations
-  { src: images.entryDecoration, alt: "Entry Decoration", category: "Decorations" },
+  { src: images.entryDecoration, alt: "Entry Decoration ", category: "Decorations" },
   { src: images.pujaHavanDecoration, alt: "Puja Havan Decoration ", category: "Decorations" },
   // Religious
   { src: images.religiousEventShreenathji, alt: "Shreenathji Theme Religious Event", category: "Religious" },

@@ -95,7 +95,7 @@ const detailedServices = [
       "Safety & Security Setup",
       "Post-Festival Cleanup",
     ],
-    image: images.decoration1,
+    image: images.decoration2,
   },
 ];
 

@@ -77,7 +77,7 @@ export default function GalleryGrid({
               initial={{ opacity: 0, scale: 0.9 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.4, delay: i * 0.05 }}
-              className="group relative mb-4 cursor-pointer break-inside-avoid overflow-hidden rounded-xl"
+              className="group relative mb-4 cursor-pointer break-inside-avoid overflow-hidden rounded-xl border border-gold/10 shadow-[0_10px_30px_rgba(76,36,20,0.08)] transition duration-500 hover:-translate-y-1 hover:border-gold/30 hover:shadow-xl"
               onClick={() => setLightbox({ src: image.src, alt: image.alt })}
             >
               <Image

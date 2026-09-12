@@ -147,7 +147,7 @@ export default function ImageSlider({ images }: ImageSliderProps) {
       </motion.button>
 
       {/* Dot Indicators */}
-      <div className="absolute bottom-6 sm:bottom-8 left-1/2 -translate-x-1/2 z-20 flex gap-2">
+      <div className="absolute bottom-6 left-1/2 z-20 flex -translate-x-1/2 gap-2 rounded-full border border-white/20 bg-black/20 px-3 py-2 backdrop-blur-md sm:bottom-8">
         {images.map((_, index) => (
           <motion.button
             key={index}

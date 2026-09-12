@@ -22,7 +22,7 @@ export default function ServiceCard({
       viewport={{ once: true, margin: "-50px" }}
       transition={{ duration: 0.5, delay: index * 0.1 }}
       whileHover={{ y: -8, transition: { duration: 0.3 } }}
-      className="group relative overflow-hidden rounded-2xl border border-gold/10 bg-white p-8 shadow-sm transition-shadow hover:shadow-xl hover:shadow-gold/10"
+      className="group luxury-surface relative overflow-hidden rounded-2xl p-8 transition duration-500 hover:-translate-y-2 hover:border-gold/30 hover:shadow-2xl hover:shadow-gold/10"
     >
       {/* Decorative corner */}
       <div className="absolute -right-6 -top-6 h-24 w-24 rounded-full bg-gold/5 transition-all group-hover:scale-150 group-hover:bg-gold/10" />

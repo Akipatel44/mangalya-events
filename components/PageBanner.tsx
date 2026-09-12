@@ -14,7 +14,7 @@ export default function PageBanner({
   image: string;
 }) {
   return (
-    <section className="grain-overlay relative flex min-h-[45vh] items-center justify-center overflow-hidden border-b border-gold/20">
+    <section className="relative flex min-h-[45vh] items-center justify-center overflow-hidden">
       <div className="absolute inset-0">
         <Image
           src={image}

@@ -120,7 +120,7 @@ export default function Homepage() {
       <ImageSlider images={heroSliderImages} />
 
       {/* Services */}
-      <section className="section-padding bg-beige relative overflow-hidden">
+      <section className="section-padding bg-beige">
         <div className="container-custom mx-auto">
           <SectionHeading
             subtitle="What We Offer"
@@ -150,7 +150,7 @@ export default function Homepage() {
       </section>
 
       {/* Gallery Preview */}
-      <section className="section-padding relative overflow-hidden bg-white">
+      <section className="section-padding bg-white">
         <div className="container-custom mx-auto">
           <SectionHeading
             subtitle="Our Portfolio"

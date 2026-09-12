@@ -31,7 +31,7 @@ export default function SectionHeading({
       >
         {title}
       </h2>
-      <div className="gold-rule mt-5" />
+      <div className="mx-auto mt-4 h-1 w-16 rounded-full bg-gold" />
       {description && (
         <p
           className={`mx-auto mt-4 max-w-2xl text-sm leading-relaxed ${

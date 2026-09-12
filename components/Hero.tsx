@@ -7,14 +7,14 @@ import { images } from "@/lib/data";
 
 export default function Hero() {
   return (
-    <section className="grain-overlay relative flex min-h-screen items-center justify-center overflow-hidden">
+    <section className="relative flex min-h-screen items-center justify-center overflow-hidden">
       {/* Background image */}
       <div className="absolute inset-0">
         <Image
           src={images.hero}
           alt="Luxury wedding decoration"
           fill
-          className="scale-105 object-cover transition-transform duration-[2s] ease-out hover:scale-110"
+          className="object-cover"
           priority
           sizes="100vw"
         />

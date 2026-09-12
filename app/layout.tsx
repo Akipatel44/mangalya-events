@@ -56,7 +56,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className="bg-beige">
+    <html lang="en">
       <body>
         <Navbar />
         <main>{children}</main>

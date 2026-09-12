@@ -7,31 +7,10 @@
 @layer base {
   html {
     scroll-behavior: smooth;
-    background: #FFF8F0;
   }
 
   body {
     @apply bg-beige font-sans text-gray-800 antialiased;
-    background-image: radial-gradient(circle at 10% 0%, rgba(201, 162, 39, 0.07), transparent 28rem), radial-gradient(circle at 90% 18%, rgba(128, 0, 32, 0.05), transparent 24rem);
-  }
-
-  ::selection {
-    background: #C9A227;
-    color: #fff;
-  }
-
-  :focus-visible {
-    outline: 2px solid #C9A227;
-    outline-offset: 4px;
-  }
-
-  @media (prefers-reduced-motion: reduce) {
-    html { scroll-behavior: auto; }
-    *, *::before, *::after {
-      animation-duration: 0.01ms !important;
-      animation-iteration-count: 1 !important;
-      transition-duration: 0.01ms !important;
-    }
   }
 
   h1, h2, h3, h4, h5, h6 {
@@ -59,37 +38,7 @@
   .text-gold-gradient {
     @apply bg-gradient-to-r from-gold-dark via-gold to-gold-light bg-clip-text text-transparent;
   }
-
-  .luxury-surface {
-    @apply border border-gold/15 bg-white/80 shadow-[0_18px_60px_rgba(76,36,20,0.08)] backdrop-blur-sm;
-  }
-
-  .gold-rule {
-    @apply relative mx-auto h-px w-24 bg-gold;
-  }
-
-  .gold-rule::after {
-    content: "";
-    @apply absolute left-1/2 top-1/2 size-2 -translate-x-1/2 -translate-y-1/2 rotate-45 bg-gold;
-  }
-
-  .image-depth {
-    @apply transition duration-700 ease-out group-hover:scale-105;
-  }
 }
-
-@layer utilities {
-  .grain-overlay::after {
-    content: "";
-    pointer-events: none;
-    position: absolute;
-    inset: 0;
-    opacity: 0.08;
-    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 180 180' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.45'/%3E%3C/svg%3E");
-    mix-blend-mode: soft-light;
-  }
-}
-
 
 /* Custom scrollbar */
 ::-webkit-scrollbar {

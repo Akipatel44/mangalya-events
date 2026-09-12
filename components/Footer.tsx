@@ -129,8 +129,7 @@ export default function Footer() {
                 </svg>
                 <p className="text-xs leading-relaxed text-white/50">
                   +91 9909428973<br />
-                  +91 9624519202<br />
-                  +91 9265572669
+                  +91 9624519202
                 </p>
               </div>
               <div className="flex items-center gap-3 rounded-xl bg-white/[0.04] px-3.5 py-3">
